@@ -40,7 +40,7 @@ public class Day01Part2 {
     String first = "", last = "";
 
     Matcher matcher = pDigit.matcher(line);
-    while (matcher.find()) {
+    while (matcher.find(start)) {
       start = matcher.start() + 1;
 
       last = matcher.group();
