@@ -45,7 +45,7 @@ public class Day02Part1 {
     Matcher matcher = pGame.matcher(line);
     if (!matcher.find())
       throw new Exception("syntax problem with " + line);
-    int gameNum = Integer.parseInt(matcher.group(1));
+//    int gameNum = Integer.parseInt(matcher.group(1));
     for (String gameData : line.substring(matcher.end()).split(";")) {
       for (String gameDataOneColor : gameData.split(",")) {
 //        System.out.println(gameDataOneColor);
