@@ -1,0 +1,2 @@
+value 5 goes to bot 2
+value 2 goes to bot 2

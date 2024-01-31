@@ -1,8 +1,5 @@
 package com.goatwalker.utils;
 
-//import com.goatwalker.aoc16.Day04Part1;
-//import com.goatwalker.aoc16.Day04Part1.CharCount;
-
 public class CharCount extends Object implements Comparable<CharCount> {
 	
 	@Override

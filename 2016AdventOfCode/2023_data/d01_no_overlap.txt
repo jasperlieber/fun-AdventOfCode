@@ -1,0 +1,2000 @@
+line: eighttkbtzjz6nineeight
+  val is 88, sum = 88
+line: 5knjbxgvhktvfcq89onefive
+  val is 55, sum = 143
+line: hnjcrxeightonejnlvm4hstmcsevensix
+  val is 86, sum = 229
+line: trsdgcxcseven39dpmzs
+  val is 79, sum = 308
+line: oneninesixtwo26
+  val is 16, sum = 324
+line: dppthreeh32twobhrqzks
+  val is 32, sum = 356
+line: 1cxklgfbvhsnccfive4
+  val is 14, sum = 370
+line: foursgjsevenseven5five19
+  val is 49, sum = 419
+line: nrrk87
+  val is 87, sum = 506
+line: 63ntkjbvcv3ntdcptmvheight78
+  val is 68, sum = 574
+line: 7xv3one
+  val is 71, sum = 645
+line: 3tzjcrfbvhtqctfmqmdcbjhxln9eightnqbcqztmxcthree
+  val is 33, sum = 678
+line: sevensszlgdrlrhnptonethree3qvrxkbgfxtthree
+  val is 73, sum = 751
+line: 3nckzkpkjsvztqkgvm99
+  val is 39, sum = 790
+line: fourthreeonesevencqdv2gnvblhr
+  val is 42, sum = 832
+line: 528ksdcbx
+  val is 58, sum = 890
+line: six342
+  val is 62, sum = 952
+line: 3twozrfrtljql9eightgcqrgmbzz7dlcr5
+  val is 35, sum = 987
+line: 6five2threesevenone65
+  val is 65, sum = 1052
+line: 4onejrg23sevensxfive
+  val is 45, sum = 1097
+line: fourthreecszzvhzfsevensix916
+  val is 46, sum = 1143
+line: spqzvdxxjeightninejzbpzone7
+  val is 87, sum = 1230
+line: cfivesevensix332lfpcffmld
+  val is 52, sum = 1282
+line: ninesevenhrdvmzj24bcxxz6
+  val is 96, sum = 1378
+line: khpn3fourvhqmntjxfhsvrlnvc
+  val is 34, sum = 1412
+line: bfzxhzftwo2czsrv
+  val is 22, sum = 1434
+line: mmblpnnineseven4gtfvqscghfour
+  val is 94, sum = 1528
+line: 1zjgqlz
+  val is 11, sum = 1539
+line: five1ninetjjtfxqpdkgrxtgxrcsevenkfdzlh
+  val is 57, sum = 1596
+line: s8twoned
+  val is 81, sum = 1677
+line: 8fiveone53nineeightthree7
+  val is 87, sum = 1764
+line: 926xrfcjzvpd7
+  val is 97, sum = 1861
+line: 3sevenqnzjsqh6fnssjdsbv3nine
+  val is 39, sum = 1900
+line: rjbbsevenvzkghzsixsbjchs59
+  val is 79, sum = 1979
+line: 221fsnxtbstone1
+  val is 21, sum = 2000
+line: seven9fourpdseven1four2eight
+  val is 78, sum = 2078
+line: two1nine4nine7
+  val is 27, sum = 2105
+line: 9seven7
+  val is 97, sum = 2202
+line: fourcjmdgjsfive2l
+  val is 42, sum = 2244
+line: twokvhrdldggn15twoxfivenine
+  val is 29, sum = 2273
+line: mmjtldgmvq157hchsnvpbjvrvtvnineeight
+  val is 18, sum = 2291
+line: cgzeight3sjmhdcvlnthree5vkgfmx
+  val is 85, sum = 2376
+line: 8sevenfourgnxdpp62xx5
+  val is 85, sum = 2461
+line: jgdk3z7mmkkjkm
+  val is 37, sum = 2498
+line: 9xrdltttpqznsljbvcdvtz
+  val is 99, sum = 2597
+line: 62zthreethree6
+  val is 66, sum = 2663
+line: sjbxq9ptsvjhpzmxfoureightmdbnlsckfqlqr
+  val is 98, sum = 2761
+line: 91xrnsbxxsvk6brxfftpttsevencszfhsnrfive
+  val is 95, sum = 2856
+line: two9ljdfskpfive
+  val is 25, sum = 2881
+line: 1seven384
+  val is 14, sum = 2895
+line: xbfkhfvlts8dhtnxhxgn93three7one1
+  val is 81, sum = 2976
+line: 3xkjrnqnqhgcfgjvfmxhghp15
+  val is 35, sum = 3011
+line: nine9844
+  val is 94, sum = 3105
+line: 5onepczqjfcgfrbmtstbqbktphkvqcmbbvhpld
+  val is 51, sum = 3156
+line: eightsixhnsbnine1twonevrs
+  val is 81, sum = 3237
+line: eightcmbm2zbxsixone34
+  val is 84, sum = 3321
+line: five99qccjbklfivevqskhpxzd
+  val is 55, sum = 3376
+line: seven9four2kzkjbrp
+  val is 72, sum = 3448
+line: ttdbhd4gqzdlqldnm
+  val is 44, sum = 3492
+line: 9cqcztfourrsfskdjf
+  val is 94, sum = 3586
+line: njttzmcrchfd4
+  val is 44, sum = 3630
+line: r414tzqnfddrbf
+  val is 44, sum = 3674
+line: 4tzbfcjksjsn7eightonelvkjzkch
+  val is 41, sum = 3715
+line: ls7four
+  val is 74, sum = 3789
+line: 6eightsixrtkcrcbmqq6eight3nine
+  val is 69, sum = 3858
+line: onesix5five7six1
+  val is 11, sum = 3869
+line: dvrqseven5ninegqthree4two9
+  val is 79, sum = 3948
+line: fourgdkmbrlgc8
+  val is 48, sum = 3996
+line: three7nine
+  val is 39, sum = 4035
+line: sixqrpzqvxd7xnbkftn5seven
+  val is 67, sum = 4102
+line: oneonerbpgk5ljpqh5threevtpkpfxtsv2
+  val is 12, sum = 4114
+line: ljttxthreefour3three4gxzgsfm
+  val is 34, sum = 4148
+line: sixttjvhdggbk357
+  val is 67, sum = 4215
+line: eightlb4
+  val is 84, sum = 4299
+line: fourtwo4twonekzb
+  val is 41, sum = 4340
+line: 8one2cdsnrbfxbsixztcfour1
+  val is 81, sum = 4421
+line: ldveight19lg
+  val is 89, sum = 4510
+line: seventpd84dscfmxj
+  val is 74, sum = 4584
+line: one34flpg6eight76
+  val is 16, sum = 4600
+line: cfninepkscscc5
+  val is 95, sum = 4695
+line: flqv5v6twooneprlprlkcbk
+  val is 51, sum = 4746
+line: qsqlrvmkq5457ninetwosevenm
+  val is 57, sum = 4803
+line: xlvvtxgspct4gmrgeight
+  val is 48, sum = 4851
+line: hpbbkqthree4gzbq768five
+  val is 35, sum = 4886
+line: 5dqfsixeightonenine
+  val is 59, sum = 4945
+line: seven4nfshmhvgqm4
+  val is 74, sum = 5019
+line: rhfgvzxtfckbtmxtt9rqms9one
+  val is 91, sum = 5110
+line: 3gsgfbrnkhqrjddvlx59four2jfz
+  val is 32, sum = 5142
+line: fdl4two
+  val is 42, sum = 5184
+line: 9sevennine158
+  val is 98, sum = 5282
+line: five9eight49
+  val is 59, sum = 5341
+line: 3mfsixnkxdbpdxqdgfdqnk
+  val is 36, sum = 5377
+line: six9fivefive
+  val is 65, sum = 5442
+line: fourjdmvlvkrp5seventhreejnqncmktwonev
+  val is 41, sum = 5483
+line: 8cjfqkkgtzlnine
+  val is 89, sum = 5572
+line: 3nnsevenjdbjfp1
+  val is 31, sum = 5603
+line: ghthree1mhgtklfqdkqthree7seven4
+  val is 34, sum = 5637
+line: 4mqsstftj
+  val is 44, sum = 5681
+line: sixprblqsevendsxvqnk5
+  val is 65, sum = 5746
+line: four45one
+  val is 41, sum = 5787
+line: dxhvj23188xz4
+  val is 24, sum = 5811
+line: dcmnr2
+  val is 22, sum = 5833
+line: xfoneightsixnine6fiveseven
+  val is 17, sum = 5850
+line: 6cxbbxkrxphsix
+  val is 66, sum = 5916
+line: 5ckkzlzjngvssfx
+  val is 55, sum = 5971
+line: 223zgb
+  val is 23, sum = 5994
+line: six4qsf
+  val is 64, sum = 6058
+line: hfxgsfhfhpjlvb329eightone
+  val is 31, sum = 6089
+line: 9zjkckhxoneightbnj
+  val is 98, sum = 6187
+line: xsdp23seven3four7
+  val is 27, sum = 6214
+line: 8five53eightthreenljbtgcnfive
+  val is 85, sum = 6299
+line: fnjn36
+  val is 36, sum = 6335
+line: eightkpkxrvssix2lhctc
+  val is 82, sum = 6417
+line: 6ninebqcksevensevenhk
+  val is 67, sum = 6484
+line: 2one98rrtlncrxhllbgthreelgvkdf
+  val is 23, sum = 6507
+line: sixzdnlfrvvd4
+  val is 64, sum = 6571
+line: lltjs8sixqbblmfdhctwo
+  val is 82, sum = 6653
+line: 6twonclq98sscjn
+  val is 68, sum = 6721
+line: six3niners7eightwokjj
+  val is 62, sum = 6783
+line: sixeighttwo1onerxrvvbfxxqmxnq9
+  val is 69, sum = 6852
+line: conetfpbsrm81sixsgkfqk8six
+  val is 16, sum = 6868
+line: jbqs5277
+  val is 57, sum = 6925
+line: kjbncjlqthxzlznld89bgqgkxfzpqsptwo
+  val is 82, sum = 7007
+line: onefive1
+  val is 11, sum = 7018
+line: pchlnspk52one4sgqj
+  val is 54, sum = 7072
+line: zd3
+  val is 33, sum = 7105
+line: 43fsfplhgxtjthree7gs4npllqvll
+  val is 44, sum = 7149
+line: eight8sixeightone6onexr
+  val is 81, sum = 7230
+line: six6hqltskzpkgbggjktlzlpktdqhzdbnine9
+  val is 69, sum = 7299
+line: eightnpfbmfninevgpjsleightxh3mz
+  val is 83, sum = 7382
+line: rninenine7nine
+  val is 99, sum = 7481
+line: fourbbjnjrbzdvshfeight62
+  val is 42, sum = 7523
+line: 3hzpfsfsdm
+  val is 33, sum = 7556
+line: 2vzhjbv6
+  val is 26, sum = 7582
+line: 27bpninejhbcjrmz7zfqf4
+  val is 24, sum = 7606
+line: ppflreightpmztvhvonetnjmrxdd31one
+  val is 81, sum = 7687
+line: threeseven7
+  val is 37, sum = 7724
+line: srf5hcxvhsmn5five
+  val is 55, sum = 7779
+line: onersvqvqgkfiveeightqxgrjgfcqj5ntgdzxp3zxdcmbsjqn
+  val is 13, sum = 7792
+line: mcb643fivetwo
+  val is 62, sum = 7854
+line: onermbkvmkc9pfvlpdhkzj
+  val is 19, sum = 7873
+line: 3oneeight64
+  val is 34, sum = 7907
+line: qtnptg5two36nine2tprkbtb
+  val is 52, sum = 7959
+line: 15lbhtcqfnj1qgjk
+  val is 11, sum = 7970
+line: eightkzrnlrrnlltdmxlbxfourpbpghtgkb9nvlvsm
+  val is 89, sum = 8059
+line: 26kmmkz
+  val is 26, sum = 8085
+line: jhnldxdtpseven46oneightnb
+  val is 78, sum = 8163
+line: 4lfftjtbzvppxsix17nxpgvjkxd
+  val is 47, sum = 8210
+line: vszsbxdzjfourhlxldrthdzpqg6slnj8four
+  val is 44, sum = 8254
+line: nineone2njsfpcb
+  val is 92, sum = 8346
+line: 5sevenone6five
+  val is 55, sum = 8401
+line: jrmdhdvrb53onelgvlkd29seven
+  val is 57, sum = 8458
+line: qqqg7eightseven
+  val is 77, sum = 8535
+line: sevenm9
+  val is 79, sum = 8614
+line: 3dfcfcdb9twoqbvxjgt56six
+  val is 36, sum = 8650
+line: xq88jjmv83pspctxthree
+  val is 83, sum = 8733
+line: 38five5
+  val is 35, sum = 8768
+line: six7rbrvjb
+  val is 67, sum = 8835
+line: eightlvqn335nine
+  val is 89, sum = 8924
+line: rgmfflzxzd9hs3foureight5
+  val is 95, sum = 9019
+line: qm6qvmrone4
+  val is 64, sum = 9083
+line: fournine8
+  val is 48, sum = 9131
+line: two688qqdtdfbmzn5
+  val is 25, sum = 9156
+line: 8joneonefourljvbjntkngtskcgfnszpgxt
+  val is 84, sum = 9240
+line: ninethree5pjzcvntl984five
+  val is 95, sum = 9335
+line: mfgqzcjbglx7
+  val is 77, sum = 9412
+line: ninemxnfcqrbjonek1nineggj
+  val is 99, sum = 9511
+line: 8dcfkfdtwo
+  val is 82, sum = 9593
+line: 4cltttbrlzpgzbdbqsevendtwosspqk
+  val is 42, sum = 9635
+line: 8eight9klmcbninetwozdcznsv
+  val is 82, sum = 9717
+line: six85pjqldfbqvclntpnqgv
+  val is 65, sum = 9782
+line: 1dgprzx53
+  val is 13, sum = 9795
+line: 4sixthreeh3fjqpggtjzq
+  val is 43, sum = 9838
+line: fourone8fiveseven4kgbs7
+  val is 47, sum = 9885
+line: seven64npxthreeonefour
+  val is 74, sum = 9959
+line: xvntvgxv9twotlgcsbgsix4
+  val is 94, sum = 10053
+line: hcqtdzthfour2xvqmnmgrncjt51
+  val is 41, sum = 10094
+line: qhlpksvnntjq8
+  val is 88, sum = 10182
+line: 3rtmfngqccktwovpppqfqdlxmk2
+  val is 32, sum = 10214
+line: sixfoureight9tqpdln3eightbjnqfldblnine
+  val is 69, sum = 10283
+line: eight2sixthree
+  val is 83, sum = 10366
+line: 3plpm
+  val is 33, sum = 10399
+line: 6two3two2
+  val is 62, sum = 10461
+line: 1cfszpnxgtk5fivefive8one
+  val is 11, sum = 10472
+line: lxrdvls2
+  val is 22, sum = 10494
+line: sevenfqszrfhone5dxcqsq
+  val is 75, sum = 10569
+line: 42
+  val is 42, sum = 10611
+line: 3dmpsix9nhgzhbmknfour19oneightlng
+  val is 38, sum = 10649
+line: six2dfglxszbjone
+  val is 61, sum = 10710
+line: eightone88
+  val is 88, sum = 10798
+line: 9hffzxl7five4
+  val is 94, sum = 10892
+line: seven8fknjk
+  val is 78, sum = 10970
+line: fivefoursevenllljzrvjf7
+  val is 57, sum = 11027
+line: eightmsxfkbszh2
+  val is 82, sum = 11109
+line: 6fiveqhkttbsthreefghn4
+  val is 64, sum = 11173
+line: 3eight98vsnzbkvzcjfive
+  val is 35, sum = 11208
+line: spmzsdztzgcfbhvbzqlv5
+  val is 55, sum = 11263
+line: fourtwozlsst9sevenjjmbmqk4
+  val is 44, sum = 11307
+line: jtmlgrjcpkone2twockgc5four
+  val is 14, sum = 11321
+line: one35five4
+  val is 14, sum = 11335
+line: four8tltpxqfour
+  val is 44, sum = 11379
+line: 57sevenbmhceightbhttrzxfvt
+  val is 58, sum = 11437
+line: qlvrrlnxgvjgnine1four2two
+  val is 92, sum = 11529
+line: sixoneseven3sevenm
+  val is 67, sum = 11596
+line: fivejxfghfp81two
+  val is 52, sum = 11648
+line: rkp3zbzfnrrqfour4eight
+  val is 38, sum = 11686
+line: eightnine7tpflkbqpz
+  val is 87, sum = 11773
+line: 28fourlmxlhdzctxkrsix
+  val is 26, sum = 11799
+line: 2fiveeightnineninexhfourseven7
+  val is 27, sum = 11826
+line: mnlrszkr18tfive7l
+  val is 17, sum = 11843
+line: 3eight639
+  val is 39, sum = 11882
+line: gqpbkntddpeight22lxqjqqone
+  val is 81, sum = 11963
+line: txxrdbx4bvsfxd
+  val is 44, sum = 12007
+line: 343nsctfvndmp93four2
+  val is 32, sum = 12039
+line: 9lqjvtjcrrtthree
+  val is 93, sum = 12132
+line: bsffrmtwo2fivesix
+  val is 26, sum = 12158
+line: qltdtgl3eighttwo91mjq
+  val is 31, sum = 12189
+line: rh4rddsfr
+  val is 44, sum = 12233
+line: fourfive7seven
+  val is 47, sum = 12280
+line: pbqmx7twoqdk
+  val is 72, sum = 12352
+line: 6onesixclklzfzsq992
+  val is 62, sum = 12414
+line: kzxkxvqzjffourdtm4onefive6xoneightsnl
+  val is 48, sum = 12462
+line: k4snine4three39
+  val is 49, sum = 12511
+line: sevenone2xcnscqhcdplnonekcxmgt
+  val is 71, sum = 12582
+line: seven7ninepmeighthqr8
+  val is 78, sum = 12660
+line: xpspdx3twoqpc3881
+  val is 31, sum = 12691
+line: 5two5four8eightfive
+  val is 55, sum = 12746
+line: sevenseven2bcbsf
+  val is 72, sum = 12818
+line: 1sevenrjstpdxfiveseven
+  val is 17, sum = 12835
+line: 2zsxfivefivesix43
+  val is 23, sum = 12858
+line: eightone5j99nhvbfqhzbvrv5
+  val is 85, sum = 12943
+line: onefive35m
+  val is 15, sum = 12958
+line: 2kfnqftkkcxtskj
+  val is 22, sum = 12980
+line: twoeight8
+  val is 28, sum = 13008
+line: 1one8bzzsmgvj2kmqcnqjrz4
+  val is 14, sum = 13022
+line: 1one4sixsixbzbcglm
+  val is 16, sum = 13038
+line: fiveqqhbmnjgz5ninerlrxkl2seven
+  val is 57, sum = 13095
+line: 4eight4two1xgkb91fdzgxlp
+  val is 41, sum = 13136
+line: nine8onefive5scxlfrf
+  val is 95, sum = 13231
+line: gbrqllhnine9
+  val is 99, sum = 13330
+line: 1fouronesixfiveseven95
+  val is 15, sum = 13345
+line: 7qjrprpseightshfzfxvn
+  val is 78, sum = 13423
+line: 2vkbbxfrthreenineeight
+  val is 28, sum = 13451
+line: 58three4
+  val is 54, sum = 13505
+line: lmfsgdzxnqfdbxtjsnp9
+  val is 99, sum = 13604
+line: zlbqglfseventprsqvsmt1one9
+  val is 79, sum = 13683
+line: fmksmtlc8dvhbtdvpfgdz
+  val is 88, sum = 13771
+line: 3six1
+  val is 31, sum = 13802
+line: mkdthree67jkprftqhdzvjxxftthree8
+  val is 38, sum = 13840
+line: bstlpptcfghsrrnine7bz
+  val is 97, sum = 13937
+line: 5m1qfscxncvkqgtf
+  val is 51, sum = 13988
+line: 62four16threeoneightg
+  val is 68, sum = 14056
+line: twoxlrhpc8n9nine
+  val is 29, sum = 14085
+line: q5sixfour
+  val is 54, sum = 14139
+line: ninesix2ninepzvxxlpcbxsfpz28hxtccfzmdq
+  val is 98, sum = 14237
+line: sevenccq4npgpkkb
+  val is 74, sum = 14311
+line: k79four9fp
+  val is 79, sum = 14390
+line: ssqptjqvld1pjfdjnkvsevenkjdzks
+  val is 17, sum = 14407
+line: 2bgpbgqfournine614
+  val is 24, sum = 14431
+line: 16threeeightwot
+  val is 12, sum = 14443
+line: five68jnhzdfqp2qlqbmnjmjdtfbj
+  val is 52, sum = 14495
+line: vplnzg4545seven
+  val is 47, sum = 14542
+line: two3two
+  val is 22, sum = 14564
+line: zcbhzsvc68cnppjpqhfl5
+  val is 65, sum = 14629
+line: nine68seventwo8pfzgfzbsh
+  val is 98, sum = 14727
+line: onethreethreeknngnmzhpmlnsd7
+  val is 17, sum = 14744
+line: 46two
+  val is 42, sum = 14786
+line: sixhdg748blmlkbdtjbtwobgpzzlhzqrbvl
+  val is 62, sum = 14848
+line: 2smcthmql84seveneighthnmdkmfg
+  val is 28, sum = 14876
+line: 5fourrpscd3
+  val is 53, sum = 14929
+line: sppzzjbckgsixone1sixfour
+  val is 64, sum = 14993
+line: ltkzb3v3ltwo
+  val is 32, sum = 15025
+line: four61nineeightdkgtcjfvds
+  val is 48, sum = 15073
+line: eightd5nfcvvdxhkkddhb
+  val is 85, sum = 15158
+line: four6q7thbpnz
+  val is 47, sum = 15205
+line: 5rknhshlhgnzz7sixone1six
+  val is 56, sum = 15261
+line: 327rkthreesixeight
+  val is 38, sum = 15299
+line: cnbqtvptwo1qnsevenpzqh
+  val is 27, sum = 15326
+line: threeqthreepmhgcqhseven2sevenggmpjcldz
+  val is 37, sum = 15363
+line: ninedlvlgnglqf3
+  val is 93, sum = 15456
+line: 4two993ninetwo
+  val is 42, sum = 15498
+line: eightzpfournine72oneseven7
+  val is 87, sum = 15585
+line: ninejdfkznz62kflbvgpblcgchpzz
+  val is 92, sum = 15677
+line: 448
+  val is 48, sum = 15725
+line: 6rktvxxjpfpqtntbsonefive
+  val is 65, sum = 15790
+line: 6lngttwodshgtworkvvsrnfhjmvpvvbseven
+  val is 67, sum = 15857
+line: eight43gpssneight
+  val is 88, sum = 15945
+line: 6seven3threefourninesevenrnxx
+  val is 67, sum = 16012
+line: three22rblfvqjr1four5six6
+  val is 36, sum = 16048
+line: xtdsqqbv43cxxvfpvtwoklhnqgjlkrrg
+  val is 42, sum = 16090
+line: threevpvxgddmhl576
+  val is 36, sum = 16126
+line: 3cxccdsevenmvzhqvpfn3btldbhbmfg
+  val is 33, sum = 16159
+line: kklcmgptl931threenineeight
+  val is 98, sum = 16257
+line: vj42ntvkrcjtq7sk6
+  val is 46, sum = 16303
+line: llsvqthreefive5
+  val is 35, sum = 16338
+line: xspgshknq3kpld2lfour6mhzrzvqf
+  val is 36, sum = 16374
+line: 4bfl38onesix9
+  val is 49, sum = 16423
+line: seven1vjzjmcrrvnh
+  val is 71, sum = 16494
+line: 7sixsevensix
+  val is 76, sum = 16570
+line: gqnkgzmvpsnnzcvldlftrzhnpcbq6hzvbqbmnqvsix
+  val is 66, sum = 16636
+line: 5jvbldxsh
+  val is 55, sum = 16691
+line: jrmvplfive7mfpbsmklzfivefivelsm
+  val is 55, sum = 16746
+line: 8seven5nppxjfjsevenbxrmzmdjnine
+  val is 89, sum = 16835
+line: seveneightnrkconeqgjfkxjr532
+  val is 72, sum = 16907
+line: m9seven7
+  val is 97, sum = 17004
+line: vdn5hdghzvphfour
+  val is 54, sum = 17058
+line: cpceightwo3
+  val is 83, sum = 17141
+line: sixtdxhninesevenmmzrpdqcp24
+  val is 64, sum = 17205
+line: tghjrkhltwojgrcnnbbq1
+  val is 21, sum = 17226
+line: cfrqlvsevengkthnsbtwo4twovffpv5six
+  val is 76, sum = 17302
+line: two6pcxj4eightgbctk71
+  val is 21, sum = 17323
+line: five93nrqpshmxpbdnzssb2
+  val is 52, sum = 17375
+line: jnxjdzm2xcfhnzkxxz948twonejv
+  val is 21, sum = 17396
+line: sixfive4four5nkdxzvd
+  val is 65, sum = 17461
+line: twoqvnxzgcg883fivejgvltjq4
+  val is 24, sum = 17485
+line: 7mzsqvrxlf6kpfjgvdpvj
+  val is 76, sum = 17561
+line: tzhkjn813six7
+  val is 87, sum = 17648
+line: 5qjbtklseven
+  val is 57, sum = 17705
+line: rddmfnjgdlnkx5fourzkxlttqdfourrrjfdd
+  val is 54, sum = 17759
+line: qtr2qrrqvhrkvmtqgbkdq
+  val is 22, sum = 17781
+line: five56ninesschfzxone
+  val is 51, sum = 17832
+line: lkb3
+  val is 33, sum = 17865
+line: 3zmbbqdqqnineeightlvlfqqxleighttloneightv
+  val is 38, sum = 17903
+line: 7threetwofive168
+  val is 78, sum = 17981
+line: njxgnsqcpnine2
+  val is 92, sum = 18073
+line: zthreerfnvvone7
+  val is 37, sum = 18110
+line: three4one8
+  val is 38, sum = 18148
+line: 8ppmjj983seveneight9
+  val is 89, sum = 18237
+line: p4
+  val is 44, sum = 18281
+line: 8tshsgmkb516three6four
+  val is 84, sum = 18365
+line: 7seven8
+  val is 78, sum = 18443
+line: twosixthreenine6three
+  val is 23, sum = 18466
+line: gvqz9
+  val is 99, sum = 18565
+line: n89ninethreesix8
+  val is 88, sum = 18653
+line: ptqrhhvztxsjbxfour81lncqpkjt
+  val is 41, sum = 18694
+line: 8flvhqljqpmlf6fivenine28
+  val is 88, sum = 18782
+line: zhbsl7seightwoczd
+  val is 72, sum = 18854
+line: four1pspgxdvtbzdcd7vsbkzmt
+  val is 47, sum = 18901
+line: fourj9sdnqtwotwonine3ftzrbzckqk
+  val is 43, sum = 18944
+line: 1fourkkfnndsdxnklrl
+  val is 14, sum = 18958
+line: zpcdvrszc4ggjcpngkqeight
+  val is 48, sum = 19006
+line: 6twonxhgzcsrgxtwosixvblddxgfmsmqtfcthree
+  val is 63, sum = 19069
+line: 6pltsptthreefive5jjqtzncslmxrmbv7
+  val is 67, sum = 19136
+line: sixfourqfxtfour9onefivehsgdvpmdsfive
+  val is 65, sum = 19201
+line: ksevensevenonebdxdxffive5threeeight
+  val is 78, sum = 19279
+line: zztvdjzlnqtbrfccctsknppmx5seventhree9
+  val is 59, sum = 19338
+line: soneight716
+  val is 16, sum = 19354
+line: 1fqnntfjhcj2threekmcpzqnbzlqps
+  val is 13, sum = 19367
+line: twopcftkx8twofourcsixfour
+  val is 24, sum = 19391
+line: 8six2sixgxzzhpkv
+  val is 86, sum = 19477
+line: four9nine4tgq
+  val is 44, sum = 19521
+line: htfmtchrx634four5zsmkmdv
+  val is 65, sum = 19586
+line: 45dltlvdvv
+  val is 45, sum = 19631
+line: dtl848three36
+  val is 86, sum = 19717
+line: nine7sixonetwo8vsix
+  val is 96, sum = 19813
+line: twobxctmqvdnt96mnljbpxtsptjpznrjctgtwooneightqv
+  val is 28, sum = 19841
+line: peightwosixeightseven4
+  val is 84, sum = 19925
+line: 1seven8ds4five6pone
+  val is 11, sum = 19936
+line: zjftdkvpkpfrhzj97nine56
+  val is 96, sum = 20032
+line: 4sdcdr53beightwocjc
+  val is 42, sum = 20074
+line: onezxmtfive7ttbbttjeighttwo
+  val is 12, sum = 20086
+line: rlcjone3sixonezvbmzcgpk4eightwotnm
+  val is 12, sum = 20098
+line: 5ddmcsfzhntpnzntlllthreevqvct
+  val is 53, sum = 20151
+line: twoeight9
+  val is 29, sum = 20180
+line: tfhmxsbf2foursqrrfourmfrzjffive6
+  val is 26, sum = 20206
+line: dhhnlbkjmfourthree6
+  val is 46, sum = 20252
+line: dxtkbxjlphpqcbmhpdfpqlmreight775bh
+  val is 85, sum = 20337
+line: sixklvmtjgsevennine33qgvplfourb
+  val is 64, sum = 20401
+line: gkjmcxsmhtwopkcszlrjd1onesevenseven
+  val is 27, sum = 20428
+line: 8xxvzzqvzszcn1onevmdfsrrtbbjgeighttgpmhh
+  val is 88, sum = 20516
+line: eightpndprhrf7
+  val is 87, sum = 20603
+line: three7fpxtxghx
+  val is 37, sum = 20640
+line: fivenssevengrrlntzldl87
+  val is 57, sum = 20697
+line: 484sixjsxcmmtvbftrfive
+  val is 45, sum = 20742
+line: t8onesevenvqsfc2k
+  val is 82, sum = 20824
+line: sevenoneoneeightsevenfive71
+  val is 71, sum = 20895
+line: sevennvnvbtzsnqggrsrgq35sevenfive7
+  val is 77, sum = 20972
+line: feightfive12
+  val is 82, sum = 21054
+line: twoc846cf
+  val is 26, sum = 21080
+line: 1mtvlxhhxlsdbphgltlgzpl
+  val is 11, sum = 21091
+line: xddrlslrdl9
+  val is 99, sum = 21190
+line: fiveqvfjvcqlcfour27
+  val is 57, sum = 21247
+line: 9fjqp9rrkqbtpv3
+  val is 93, sum = 21340
+line: 23fqccxsvsix94tkzsqmrhsg
+  val is 24, sum = 21364
+line: 6lvrsqnz
+  val is 66, sum = 21430
+line: 9four7hvlfl9
+  val is 99, sum = 21529
+line: gbgsnmkrxjxpgnj828
+  val is 88, sum = 21617
+line: 56grzmb6onekf9six
+  val is 56, sum = 21673
+line: 87bjn4
+  val is 84, sum = 21757
+line: sjdzmqkrlkbsmxzsmn3
+  val is 33, sum = 21790
+line: seven91eightsix
+  val is 76, sum = 21866
+line: svhfnxzdzqczc2
+  val is 22, sum = 21888
+line: vbnz92chjjfqftxfourqzzxseven
+  val is 97, sum = 21985
+line: seventwofour5jbqvlmqknbznfbhtonefour
+  val is 74, sum = 22059
+line: dqdmntkfsnbmjqxxgmkvm6vqpgpnnreight
+  val is 68, sum = 22127
+line: one1431
+  val is 11, sum = 22138
+line: 1five4
+  val is 14, sum = 22152
+line: twoone8thtxlrrdxbone
+  val is 21, sum = 22173
+line: qftpltmjd1zpxckthreeeight
+  val is 18, sum = 22191
+line: 9xg
+  val is 99, sum = 22290
+line: pjpdjrkltnrkkmd9five75rdctppdhjtghrffczdx
+  val is 95, sum = 22385
+line: mtvbhnpzjfive7nine
+  val is 59, sum = 22444
+line: thlzdgxcqvsknczrdslsh7
+  val is 77, sum = 22521
+line: eighteight4kkt7four5
+  val is 85, sum = 22606
+line: 71ninekzfntxtjthreeone3
+  val is 73, sum = 22679
+line: gzseven2fssqrgmbj
+  val is 72, sum = 22751
+line: 52j
+  val is 52, sum = 22803
+line: nsv16seven
+  val is 17, sum = 22820
+line: stwone1
+  val is 21, sum = 22841
+line: twodbqgfivegsrrvxvone3
+  val is 23, sum = 22864
+line: jckhqbdlvgbgn7vtx3vggrdm
+  val is 73, sum = 22937
+line: ntzftfhfeighteight2
+  val is 82, sum = 23019
+line: 48eight6
+  val is 46, sum = 23065
+line: flzfqonezvskbf1668one6
+  val is 16, sum = 23081
+line: sevensix864eightfour3
+  val is 73, sum = 23154
+line: dnsdrsxvcxnsevengxrszqxfnd4fmnine
+  val is 79, sum = 23233
+line: tjjngfourhdfzpfkh24
+  val is 44, sum = 23277
+line: foursmgvlqjxsqmz8ninekthktdhz
+  val is 49, sum = 23326
+line: three435
+  val is 35, sum = 23361
+line: tkfqhpz8zjmcqbxcb46
+  val is 86, sum = 23447
+line: mmvstlmln3kxnkvjcmxtrdxp4seven
+  val is 37, sum = 23484
+line: rmfour13vkgnnmbzbzgd
+  val is 43, sum = 23527
+line: three6nnbljchmzthreeg
+  val is 33, sum = 23560
+line: 68onep9five1one2
+  val is 62, sum = 23622
+line: rbvzvgmkbmdrnmvone7kqtxtrtbone
+  val is 11, sum = 23633
+line: three13six4
+  val is 34, sum = 23667
+line: qksfrmvgztsfournnvp66nine
+  val is 49, sum = 23716
+line: 34three
+  val is 33, sum = 23749
+line: 11fourpzkmqnfmjqkdgrlgqbsixsixcqtgdggbdx
+  val is 16, sum = 23765
+line: nineone2seven4twoninesix
+  val is 96, sum = 23861
+line: ninez6qpnnbpmcdhcr
+  val is 96, sum = 23957
+line: sixbdbkhgntpsevencpn3
+  val is 63, sum = 24020
+line: 1fivehvlrzpninemkfbfgtvfivesix3
+  val is 13, sum = 24033
+line: 7kpeightzlvqsgkfjznpfpfsseven66
+  val is 76, sum = 24109
+line: c7hxrgkglfivebfctxk
+  val is 75, sum = 24184
+line: 5rfdxgshzmnzqscpqzlbnrhbg9strxdthree8kntkhdpdll
+  val is 58, sum = 24242
+line: 4gfzcjcjsm63fvxpvflv
+  val is 43, sum = 24285
+line: nine8526
+  val is 96, sum = 24381
+line: 6scslfpnrveight1seven5bdllknjj
+  val is 65, sum = 24446
+line: seven94hnxddjv26s
+  val is 76, sum = 24522
+line: two48seven3four58four
+  val is 24, sum = 24546
+line: fourseven1smh5
+  val is 45, sum = 24591
+line: 1zzdzmbjpjfzlhsvzgxf61gvtnklgx6
+  val is 16, sum = 24607
+line: ninefour63
+  val is 93, sum = 24700
+line: nine3nrfzn
+  val is 93, sum = 24793
+line: gthreeseventwonine1eights
+  val is 38, sum = 24831
+line: sdonejzdmtxtpl9onerzztvqr8
+  val is 18, sum = 24849
+line: eight15kqnjrggpblhsbdz1
+  val is 81, sum = 24930
+line: lkkxnzjrgsixsixthreeeighteight4twonem
+  val is 61, sum = 24991
+line: d17two44
+  val is 14, sum = 25005
+line: 6seveneight1fourthreesevenbdpvg
+  val is 67, sum = 25072
+line: cjgchvhq4386five8
+  val is 48, sum = 25120
+line: 1threefive426rsxmthree8
+  val is 18, sum = 25138
+line: sixnztppjtn9twossfjrdkzkrldztfbbv
+  val is 62, sum = 25200
+line: threesevenlqrdmvzdcphmqj3four5three
+  val is 33, sum = 25233
+line: fivethreepcfxdxmc3vdbprghd5sevenszprlbzrbn
+  val is 57, sum = 25290
+line: threethree88xcgdmrcssevenrlflv39
+  val is 39, sum = 25329
+line: eightonezchscllpfone9
+  val is 89, sum = 25418
+line: zreight6sevennine
+  val is 89, sum = 25507
+line: fmrhqrxr7
+  val is 77, sum = 25584
+line: sixnlqccjchpxpqg86five5
+  val is 65, sum = 25649
+line: sdpxjrxtk4sevenfivetmddbpqgtqffive2
+  val is 42, sum = 25691
+line: hrvrgjgvxt7vrsr
+  val is 77, sum = 25768
+line: 2zj8
+  val is 28, sum = 25796
+line: 35fourspthreeseven3zgddrmbxmsz
+  val is 33, sum = 25829
+line: four8kkxmtsscf
+  val is 48, sum = 25877
+line: 4six98
+  val is 48, sum = 25925
+line: five9four
+  val is 54, sum = 25979
+line: four5one7pjbninefourbmss
+  val is 44, sum = 26023
+line: 4sixsixt138seven
+  val is 47, sum = 26070
+line: fourxsevenseveneighthsgmmpdx5
+  val is 45, sum = 26115
+line: tonexhgcjxbjn8
+  val is 18, sum = 26133
+line: chbkd2183
+  val is 23, sum = 26156
+line: six8fivefourglszgngfgqthree
+  val is 63, sum = 26219
+line: pghkzrftwo6
+  val is 26, sum = 26245
+line: fourpfx572
+  val is 42, sum = 26287
+line: 62zfvzp
+  val is 62, sum = 26349
+line: sixsixnzvtxdgsixzxsgmpz1zvtwo4oneightpg
+  val is 68, sum = 26417
+line: 425twothreebv4twoxbx
+  val is 42, sum = 26459
+line: 8nineeight55eightflkpggltsr4spl
+  val is 84, sum = 26543
+line: seven45clkrkrxj
+  val is 75, sum = 26618
+line: 65six594twofive
+  val is 65, sum = 26683
+line: 4ktvpfjeight
+  val is 48, sum = 26731
+line: nnslpmkqc5five5four
+  val is 54, sum = 26785
+line: nineonetzmft8jcxqzrk
+  val is 98, sum = 26883
+line: fivefivethree99
+  val is 59, sum = 26942
+line: 2l2
+  val is 22, sum = 26964
+line: 4mhdj
+  val is 44, sum = 27008
+line: 3eight7fivejqhvrszgh3
+  val is 33, sum = 27041
+line: 5four7mbfz8
+  val is 58, sum = 27099
+line: one8sevenmltbgqcbq22
+  val is 12, sum = 27111
+line: 1zgfnfvt9seven
+  val is 17, sum = 27128
+line: 2lhbfrndhmfiveone
+  val is 21, sum = 27149
+line: fivekzgch424zbpgxhtkbjdljxkxvnz
+  val is 54, sum = 27203
+line: 1vd6vpmzjmnhhn
+  val is 16, sum = 27219
+line: vlqcbhskb5onerqbql6
+  val is 56, sum = 27275
+line: six3tplqcxthreethreefoureightzldgvgxrthree
+  val is 63, sum = 27338
+line: 4fourtwo4
+  val is 44, sum = 27382
+line: cvznvxbxlszjpxvzbqn7gt2fjtxddzmjv
+  val is 72, sum = 27454
+line: kjqthree67twosixfour4nine
+  val is 39, sum = 27493
+line: dmjrhflfzslhkjmthreemfgqvzcpm9bcnfbpz
+  val is 39, sum = 27532
+line: nfpcsevenone3two58
+  val is 78, sum = 27610
+line: eight4kdqczz96five1four
+  val is 84, sum = 27694
+line: 1mzfour
+  val is 14, sum = 27708
+line: 57tdcmtmns4
+  val is 54, sum = 27762
+line: bdxeightrjvkrddrm3nftmzxlftthree
+  val is 83, sum = 27845
+line: 2three2kvfourgrtvxmrzgdninecseven
+  val is 27, sum = 27872
+line: threemxpfnthree5onehjdxfntvtzlxhr
+  val is 31, sum = 27903
+line: 8onelqtjpkmtwotwoseven91
+  val is 81, sum = 27984
+line: rzhzg1fouronecqkdpfkgdkkftsixhllvphvtjv
+  val is 16, sum = 28000
+line: vxgrlptk48one14two
+  val is 42, sum = 28042
+line: kqncz3znmkppxs3hlggbmsfj81
+  val is 31, sum = 28073
+line: ddrp3
+  val is 33, sum = 28106
+line: three8hjdccgthrtbd6lvhnbfivemzh
+  val is 35, sum = 28141
+line: twomptzvkqmssix7bjvpsix6nine
+  val is 29, sum = 28170
+line: phrdjxmzj3xxkmfour7dsix
+  val is 36, sum = 28206
+line: 5threeshtmlsjbmfzgdq
+  val is 53, sum = 28259
+line: 96eight
+  val is 98, sum = 28357
+line: three6rqqxgzthreejphvs
+  val is 33, sum = 28390
+line: 69seven52kmnpbqmjdhtjvxcnlxfgldbs
+  val is 62, sum = 28452
+line: veightwozbbcmqrdxv6hxxpdknf
+  val is 86, sum = 28538
+line: nxbtwone1vktdvlbbhnfour
+  val is 24, sum = 28562
+line: 4five864
+  val is 44, sum = 28606
+line: 2dn1fiveeightthree
+  val is 23, sum = 28629
+line: two4twofoureight43
+  val is 23, sum = 28652
+line: 1eight51
+  val is 11, sum = 28663
+line: 71fourhjrnqssxqvf
+  val is 74, sum = 28737
+line: sevenqxkccdxndfgqhctsfsx6
+  val is 76, sum = 28813
+line: xqgsjvdmnb31sixfourtksqshz5
+  val is 35, sum = 28848
+line: 4ghkqfzxceighteight2eightfiveeightwotf
+  val is 42, sum = 28890
+line: ninelsnldgslfxfqfsrc24six
+  val is 96, sum = 28986
+line: 3seven3ctbf9eightmshd
+  val is 38, sum = 29024
+line: mbqpfourfive44sixbnmqrmkgxt
+  val is 46, sum = 29070
+line: flgdrvjj4dks
+  val is 44, sum = 29114
+line: oneqslfbjgfx8
+  val is 18, sum = 29132
+line: jmmssm2
+  val is 22, sum = 29154
+line: hjfbzsix1
+  val is 61, sum = 29215
+line: bvjdxseven8
+  val is 78, sum = 29293
+line: fivenhfccvg9
+  val is 59, sum = 29352
+line: four5sevengkvslppponerhlvfms
+  val is 41, sum = 29393
+line: b9one
+  val is 91, sum = 29484
+line: 89znlhgbnkmmxsix3two
+  val is 82, sum = 29566
+line: sixsqtjcdfbs87ninejvznvmeightfvst1
+  val is 61, sum = 29627
+line: sevenktnzdkcsrzzdqtb9jnbtwotgxsptxcd5
+  val is 75, sum = 29702
+line: 6mqvbhsddnmb21sixskg8
+  val is 68, sum = 29770
+line: threenb2four74five1lcmdzrvq
+  val is 31, sum = 29801
+line: ftvone7
+  val is 17, sum = 29818
+line: 5msevenpdqgzncvzxeight
+  val is 58, sum = 29876
+line: foursixpshnbrpm64
+  val is 44, sum = 29920
+line: six2twotwordzf
+  val is 62, sum = 29982
+line: nine7lbnxsfjtbb1seven4ggt4
+  val is 94, sum = 30076
+line: zlnfkkconept36
+  val is 16, sum = 30092
+line: 9sevenfqlxjmts94xpcxqseven
+  val is 97, sum = 30189
+line: foursevenseven15ninedqff1kmzfgvnks
+  val is 41, sum = 30230
+line: xktjdhb115
+  val is 15, sum = 30245
+line: threeeightcnlpzrb8
+  val is 38, sum = 30283
+line: 91six
+  val is 96, sum = 30379
+line: 376kkgmlblrcbthree7jgxvgfcdv
+  val is 37, sum = 30416
+line: 9xpz3
+  val is 93, sum = 30509
+line: rrcvpkgtwo2one6vjfone24
+  val is 24, sum = 30533
+line: sevenhfour3three
+  val is 73, sum = 30606
+line: pxfvzltqrg9twotwogqdtzbp
+  val is 92, sum = 30698
+line: lrgseveneight5pmxvppjdhtwoone
+  val is 71, sum = 30769
+line: 97six
+  val is 96, sum = 30865
+line: four8bjdhpmszdeightprkgone
+  val is 41, sum = 30906
+line: mb6lfcdkcn
+  val is 66, sum = 30972
+line: 8fbvxnjone
+  val is 81, sum = 31053
+line: z9vdthreethreesbsrkzgnsxp8
+  val is 98, sum = 31151
+line: sevengftjmm1onegqhpninesnr3
+  val is 73, sum = 31224
+line: f4fourrbbngrdm37five
+  val is 45, sum = 31269
+line: ninerbmdqfvkfx9eightone8eight2
+  val is 92, sum = 31361
+line: rxdvclfr714
+  val is 74, sum = 31435
+line: oneggchmt2dgh7
+  val is 17, sum = 31452
+line: tvbfour9four
+  val is 44, sum = 31496
+line: four474fourgmdtm
+  val is 44, sum = 31540
+line: nffourpbxtlcs7ninethree3
+  val is 43, sum = 31583
+line: bpjlrztwo2sdttcghc
+  val is 22, sum = 31605
+line: hfflhmdc18
+  val is 18, sum = 31623
+line: 4ninepsrmtbqrfeightk3xxxf
+  val is 43, sum = 31666
+line: 433hdvcggkr1xjcntvtnvsc
+  val is 41, sum = 31707
+line: 7nine2nine6
+  val is 76, sum = 31783
+line: 9zctwo
+  val is 92, sum = 31875
+line: 9vvfjvctgtzpjh7jtdjcrh
+  val is 97, sum = 31972
+line: qrtgcd5six31khd5
+  val is 55, sum = 32027
+line: fourbjshrq845zg
+  val is 45, sum = 32072
+line: ghconeight35jljdqgtg4fjdtxtsfiveone4
+  val is 14, sum = 32086
+line: one7kxscgcxnsx
+  val is 17, sum = 32103
+line: 43threethree54four
+  val is 44, sum = 32147
+line: vmninetwo2onetqgblrsgcpfkrreightwokg
+  val is 92, sum = 32239
+line: threefour38
+  val is 38, sum = 32277
+line: fivesixeights26three
+  val is 53, sum = 32330
+line: jtmzzxvmxone2four9jgtxjrvpcthree
+  val is 13, sum = 32343
+line: fdqgczkq8sevenvcnhpseven8three88
+  val is 88, sum = 32431
+line: 7ninezone3
+  val is 73, sum = 32504
+line: frj4eighttwobgx1threesjckzsvvxlone
+  val is 41, sum = 32545
+line: oneseven2cspzhqfsix4
+  val is 14, sum = 32559
+line: ljmnbbcnxffkmdn5
+  val is 55, sum = 32614
+line: tmzlnl8oneseven86ninelbrzjgqn
+  val is 89, sum = 32703
+line: fthree3seven6sixtwo34
+  val is 34, sum = 32737
+line: 6two8fivexteight
+  val is 68, sum = 32805
+line: 89seven5twosix63
+  val is 83, sum = 32888
+line: 63pzsjcjzvbhseven
+  val is 67, sum = 32955
+line: msqvppsgnfbjrjmdrrhbfxrjqdlkpfourjbrjks3dthree
+  val is 43, sum = 32998
+line: eight6twoklkdfgvxzteighttctqz
+  val is 88, sum = 33086
+line: 4gjpfmqs233six
+  val is 46, sum = 33132
+line: onefourninenxcnkgfour8rmmrzln
+  val is 18, sum = 33150
+line: 1sptlpstqb6eightqgfhzzgpgp24
+  val is 14, sum = 33164
+line: eightlrjlhqfoureightjvj937
+  val is 87, sum = 33251
+line: 595oneighthpt
+  val is 58, sum = 33309
+line: 44five
+  val is 45, sum = 33354
+line: two2sevenbtwo
+  val is 22, sum = 33376
+line: 7fivefivepxonebbrlthreefive
+  val is 75, sum = 33451
+line: klxnlfjlsrgjcd7eightninefive
+  val is 75, sum = 33526
+line: threeqzpptnzhjnkqfsixpvk3xxlrpl
+  val is 33, sum = 33559
+line: mqkhsdtbqqzgjb7149ninesix
+  val is 76, sum = 33635
+line: 1dbrrvjsx34cbdxhqpzbfhtgpm9three
+  val is 13, sum = 33648
+line: 3onesix6eight
+  val is 38, sum = 33686
+line: five34
+  val is 54, sum = 33740
+line: 6qcv9nzngtsjv
+  val is 69, sum = 33809
+line: 9lttthreegttzjstt
+  val is 93, sum = 33902
+line: four47
+  val is 47, sum = 33949
+line: 95onetwoftdzmhsfmhbnblnine
+  val is 99, sum = 34048
+line: chcsqhnp72qjdqtjxzc8fourfourfour
+  val is 74, sum = 34122
+line: fourfive28
+  val is 48, sum = 34170
+line: 81eighttwoqdjkmnleightdbmzz
+  val is 88, sum = 34258
+line: vzzqpjx8
+  val is 88, sum = 34346
+line: qq1six
+  val is 16, sum = 34362
+line: qbktqgrjcqq75
+  val is 75, sum = 34437
+line: 772
+  val is 72, sum = 34509
+line: njvnhnzdz6threefivetwonelt
+  val is 61, sum = 34570
+line: pcfzzjfhqkxhfpztpv7
+  val is 77, sum = 34647
+line: fivemztfourqjrtngrkpcbfc3qq
+  val is 53, sum = 34700
+line: bfjhbm6ghtdpsmlvb86eight
+  val is 68, sum = 34768
+line: 94883
+  val is 93, sum = 34861
+line: 6onegbxmcqmdfive
+  val is 65, sum = 34926
+line: sevenonesixcngsrgcz9
+  val is 79, sum = 35005
+line: sevenzhxktd22fourgnr9
+  val is 79, sum = 35084
+line: tdxpzvggnlpdxxrcpsp3threexjrldrkmp
+  val is 33, sum = 35117
+line: 34kjtbsxppmxfoursixlbzgqxbltv
+  val is 36, sum = 35153
+line: fivethreezfive2
+  val is 52, sum = 35205
+line: 7seven1seven
+  val is 77, sum = 35282
+line: 4fhvxbg58eighteightone
+  val is 41, sum = 35323
+line: 631gqtwosix
+  val is 66, sum = 35389
+line: xqn1chrcjjrqxp4threezjcd
+  val is 13, sum = 35402
+line: jtssvppxlnsix49rfvjdzntwoone
+  val is 61, sum = 35463
+line: sevencmpmdnczcfdprgfdbjnzzkgnine26
+  val is 76, sum = 35539
+line: hkbnggqfk7mfmfsone68sxpdmf
+  val is 78, sum = 35617
+line: fourtlhsmksvzg4foursixseven
+  val is 47, sum = 35664
+line: pprkj3sixseven
+  val is 37, sum = 35701
+line: kzxjpdczxhxckxtgbbtwothreethree5dztmdfrlfivedgcfmmrt
+  val is 25, sum = 35726
+line: hjvrdhnckspl5eight3three9
+  val is 59, sum = 35785
+line: 74two95eightfourdkzzlkxszm
+  val is 74, sum = 35859
+line: one7tbfour1cpjtrxsqgvbjtpbcct2
+  val is 12, sum = 35871
+line: fivefour4hsix8hjsxrmpqqxnkhmjseven
+  val is 57, sum = 35928
+line: nine8fivehvmnxsfour7four75
+  val is 95, sum = 36023
+line: sjfrjr2ds
+  val is 22, sum = 36045
+line: fivefourqt95vbndnzns665
+  val is 55, sum = 36100
+line: sixssbznthreethree6f8lnzcgpprl
+  val is 68, sum = 36168
+line: ninepfbpfnflrfnpzhq9
+  val is 99, sum = 36267
+line: nh9fvrldpkjmq7six5p
+  val is 95, sum = 36362
+line: 75zsixnqbhrcbpmddshjfqthtq
+  val is 76, sum = 36438
+line: sevennine377fourfrtvpqrseven6
+  val is 76, sum = 36514
+line: 97eightnine
+  val is 99, sum = 36613
+line: 52fiveonetrq5
+  val is 55, sum = 36668
+line: threehgjqt7rvfsljtzkfour
+  val is 34, sum = 36702
+line: tjkxc1
+  val is 11, sum = 36713
+line: jthreerqbpzpzmeightntjlrhdmfour2
+  val is 32, sum = 36745
+line: fourmgv2three4one
+  val is 41, sum = 36786
+line: four91
+  val is 41, sum = 36827
+line: 9bone
+  val is 91, sum = 36918
+line: oneseven1sevenpdvdqhlq
+  val is 17, sum = 36935
+line: xlhbqxcpfp7
+  val is 77, sum = 37012
+line: twothreefive43
+  val is 23, sum = 37035
+line: 1ctjmfn9one2
+  val is 12, sum = 37047
+line: htfivesixcdkjrjbr45eightseven
+  val is 57, sum = 37104
+line: onefour8rrhltfl897
+  val is 17, sum = 37121
+line: 37ljvmcnjhonevxkqpjk
+  val is 31, sum = 37152
+line: 3891sevencfgjhh45
+  val is 35, sum = 37187
+line: twoone5tbznkdmv1fourpltvnnsvk19
+  val is 29, sum = 37216
+line: 55bcnzbfggd2
+  val is 52, sum = 37268
+line: 17zpskbgeight2dx3
+  val is 13, sum = 37281
+line: vbdshtdkxllttwo65
+  val is 25, sum = 37306
+line: tzvmcmltfphztpplrxjxpbnine3qvktlctfrpxncb
+  val is 93, sum = 37399
+line: 1sixppzlfvkbnm
+  val is 16, sum = 37415
+line: eight1gdvlzrfkc
+  val is 81, sum = 37496
+line: four74fivefseven
+  val is 47, sum = 37543
+line: hlzlvnjrp9312jxeightnine1
+  val is 91, sum = 37634
+line: sixsevenkjpbz5sevencksb2
+  val is 62, sum = 37696
+line: 9rtvlgdpfnmgzdzcjggsq7sevendxglftncmbninefive
+  val is 95, sum = 37791
+line: eight8gxkrbkgcvbxbbxlonefivesevenjnffhjsk
+  val is 87, sum = 37878
+line: 99twobdmcnfthreevr
+  val is 93, sum = 37971
+line: sevenlpjbbthree58
+  val is 78, sum = 38049
+line: eightthree32
+  val is 82, sum = 38131
+line: 14fhxsqshmjbngrhdzvxvvhxgvqnlxnnvrsgsheightninenine
+  val is 19, sum = 38150
+line: 6twotwo
+  val is 62, sum = 38212
+line: kr573eightseven78
+  val is 58, sum = 38270
+line: 9six18
+  val is 98, sum = 38368
+line: 2seven8six1qdvf
+  val is 21, sum = 38389
+line: ones9three1lcqj2
+  val is 12, sum = 38401
+line: sixbfour6gbd
+  val is 66, sum = 38467
+line: tfpvtbbjtwormxz6
+  val is 26, sum = 38493
+line: 49eighttwoonesixeighteight
+  val is 48, sum = 38541
+line: fcrhntggdvseventhreeeight9foureightxjxqvtb
+  val is 78, sum = 38619
+line: oneone3rnngppxj8fzpsncjmzn
+  val is 18, sum = 38637
+line: 9fiveonejjdpthreetwo9
+  val is 99, sum = 38736
+line: sixsixjzckvmbbszsl1nrrfphj5
+  val is 65, sum = 38801
+line: zgjvnttth7sbmtxczggxbbqpzq467
+  val is 77, sum = 38878
+line: 3mhslltk
+  val is 33, sum = 38911
+line: 9six16three79three
+  val is 93, sum = 39004
+line: fxprlhbm3zljzd49gdsrtt
+  val is 39, sum = 39043
+line: 6eightoneseveneightfourrfive
+  val is 65, sum = 39108
+line: fourfive11six
+  val is 46, sum = 39154
+line: 6gmrfxnsmnnljf8ninenlctx
+  val is 69, sum = 39223
+line: seven5threehninecnhbkgbnvqbsfx
+  val is 79, sum = 39302
+line: pxzccjqz8
+  val is 88, sum = 39390
+line: xgzpzljnfour7threethrxskjlz9
+  val is 49, sum = 39439
+line: fourseveneight292eightone
+  val is 41, sum = 39480
+line: 5bjpzjseven21four
+  val is 54, sum = 39534
+line: xbtf88nine
+  val is 89, sum = 39623
+line: 6nfjllxh4
+  val is 64, sum = 39687
+line: 67five4c8
+  val is 68, sum = 39755
+line: 1qbzdkvmlrzgj3rzqczz4
+  val is 14, sum = 39769
+line: mjjzblg3
+  val is 33, sum = 39802
+line: x3five
+  val is 35, sum = 39837
+line: jrpxsrqgr9hqsddmscmsrsbhkdc63eightxfscd
+  val is 98, sum = 39935
+line: 6eightsixone
+  val is 61, sum = 39996
+line: 5dggfbgclz7htvpcx1
+  val is 51, sum = 40047
+line: onethree46psdlfpgbsix
+  val is 16, sum = 40063
+line: lqbnine978
+  val is 98, sum = 40161
+line: 7nrrdzfksbtjlnbgfxttzfourstqkd
+  val is 74, sum = 40235
+line: mtfptwo9six23hctpbrxtbx
+  val is 23, sum = 40258
+line: eightfznvmmp7cllpkggknttwoxbbv
+  val is 82, sum = 40340
+line: rggdrlsgcm2hdljxzjhjrfour83
+  val is 23, sum = 40363
+line: vhtmhvjdzzkzmzqgr7fourfourfourgzbqqpz
+  val is 74, sum = 40437
+line: dfjctmlnkqzzjhhltpvhfmhsixvclfive7vgm9
+  val is 69, sum = 40506
+line: nine642sevenseven9mblrhxxktfhdhbcztvx
+  val is 99, sum = 40605
+line: 4rzrdfmtvlpthree86
+  val is 46, sum = 40651
+line: qkdoneighttwo1one3
+  val is 13, sum = 40664
+line: dnnvkvpcmn2cltbzc6five59s
+  val is 29, sum = 40693
+line: sixsnzpnfplrn38hthhbfive4
+  val is 64, sum = 40757
+line: tsrxkzfxcdgckxrgzkmrctqvrngfnvdscnpc6jgszldglnhsg
+  val is 66, sum = 40823
+line: vvtfhtgxjbdgznjjzqjjclfg1lvpdcpjsevenseven3
+  val is 13, sum = 40836
+line: xrhbrpg8zb8
+  val is 88, sum = 40924
+line: 4nine5qfxlhmvzsjsbznmklseven
+  val is 47, sum = 40971
+line: lffl2six733jtrfrs3
+  val is 23, sum = 40994
+line: 7nbvpkdpzjtc8qckhbqfsqqgz
+  val is 78, sum = 41072
+line: cfljnthreecninedt2xldzbgl5six
+  val is 36, sum = 41108
+line: nrggf7four
+  val is 74, sum = 41182
+line: hbkpxrxonetwo969fivethreegspmzcfr
+  val is 13, sum = 41195
+line: jjpmzlzfvqbvbzqcz2eightninepfqjkjrkfivebzcthgrpqx
+  val is 25, sum = 41220
+line: xsccsbmcninefive4kkrvrht
+  val is 94, sum = 41314
+line: sgnzzschtwotwofzjt9seven
+  val is 27, sum = 41341
+line: 8tworpzncglnmninenjmf368
+  val is 88, sum = 41429
+line: 2one1zjtgllvsone
+  val is 21, sum = 41450
+line: 7nine4nqqxnvvnsbsevenvddcvfdr
+  val is 77, sum = 41527
+line: three117
+  val is 37, sum = 41564
+line: shcjhvrfourpthree12
+  val is 42, sum = 41606
+line: 1zxcxninegpdfrfhzlbzg
+  val is 19, sum = 41625
+line: 7eight9gkkfbdhplnmjkksbqzp6htmbhg
+  val is 76, sum = 41701
+line: sixeight76sixfive
+  val is 65, sum = 41766
+line: 5twonemt
+  val is 51, sum = 41817
+line: three86
+  val is 36, sum = 41853
+line: 4three52psgzhnlhgvgcsbzbleight5oneightkj
+  val is 48, sum = 41901
+line: cnztwone1
+  val is 21, sum = 41922
+line: six9sgx
+  val is 69, sum = 41991
+line: 79clrpmeightninepkh39
+  val is 79, sum = 42070
+line: rmfplpsixsixlvrdbqgpljgl5onetwo3
+  val is 63, sum = 42133
+line: 7ninelznqjxjgtwohhk6five
+  val is 75, sum = 42208
+line: 1659two7onefive
+  val is 15, sum = 42223
+line: rskpnrmfbbghttvklkg773fourczdqeight
+  val is 78, sum = 42301
+line: xftwo4
+  val is 24, sum = 42325
+line: 2nine5ccrgsmfcseven9seven52
+  val is 22, sum = 42347
+line: 8sixseven
+  val is 87, sum = 42434
+line: k33threehgqtljcdqxkl
+  val is 33, sum = 42467
+line: hfgdvngttzfivecflmcc31three
+  val is 53, sum = 42520
+line: eightninethreensjxxlzhgk9b51x
+  val is 81, sum = 42601
+line: ninejktfhnnphkkgm2dms5dpxrbcd
+  val is 95, sum = 42696
+line: eight7skzllgxgmkd1three4thhdpsjtvnq
+  val is 84, sum = 42780
+line: 7ninehhhdngbxjvvxldvbrhzrbvntl2
+  val is 72, sum = 42852
+line: pxgsixone75llslx
+  val is 65, sum = 42917
+line: 31tgrvtvvlbhnshjfgnqc
+  val is 31, sum = 42948
+line: knzgkjfckf2sevendfive
+  val is 25, sum = 42973
+line: bmxcnznineeight9dvkbngzmxz
+  val is 99, sum = 43072
+line: gzqdjfsxq9pbseven
+  val is 97, sum = 43169
+line: 212
+  val is 22, sum = 43191
+line: h3
+  val is 33, sum = 43224
+line: 9sixfourbrfsfivekttxzhrmdsppps
+  val is 95, sum = 43319
+line: 3vxtbtrzqzxfhgsksbvqd
+  val is 33, sum = 43352
+line: 9lbxdjmckrhfgjqlnsrrfzqxktqkrmmjshfnine
+  val is 99, sum = 43451
+line: 7pjmmxdcffxgspeightgpdcftjtdxjgdrfthree
+  val is 73, sum = 43524
+line: t84ninefive4
+  val is 84, sum = 43608
+line: fgfour63sevendmtrrc9
+  val is 49, sum = 43657
+line: 64three
+  val is 63, sum = 43720
+line: btjnc3g6f3one
+  val is 31, sum = 43751
+line: pm9
+  val is 99, sum = 43850
+line: threefourvjmsx5four
+  val is 34, sum = 43884
+line: 14one2rtcccqc
+  val is 12, sum = 43896
+line: jhcckpv84xntpzdn
+  val is 84, sum = 43980
+line: rpjrhgddzfvrzpqnfg5twoseven3threehvcmnkreightwotl
+  val is 52, sum = 44032
+line: 74one
+  val is 71, sum = 44103
+line: six4ninesnbxlonesix5three
+  val is 63, sum = 44166
+line: kfxjzjone76xppxgddstgfhxphpffrjlone
+  val is 11, sum = 44177
+line: sixthreedsdccpqff4
+  val is 64, sum = 44241
+line: 4951
+  val is 41, sum = 44282
+line: zszgqjxbx7
+  val is 77, sum = 44359
+line: three4pqqvfzf622
+  val is 32, sum = 44391
+line: vc77threetd
+  val is 73, sum = 44464
+line: sixlbglxqhn52
+  val is 62, sum = 44526
+line: 1sgktgvxp
+  val is 11, sum = 44537
+line: bdsonekxsevenpgssslcq3fgp7
+  val is 17, sum = 44554
+line: pvnxnhdjmndnhthreefive49
+  val is 39, sum = 44593
+line: kgvkszsixone4
+  val is 64, sum = 44657
+line: 3mjvqjpglzhphg67ninehnnine
+  val is 39, sum = 44696
+line: one6xvvnvkxp4dfcxv
+  val is 14, sum = 44710
+line: eightfour7threesevenp
+  val is 87, sum = 44797
+line: 7ggdl1
+  val is 71, sum = 44868
+line: ztwonethree427ninetnmzntj4
+  val is 24, sum = 44892
+line: fttwone258seventwotwo
+  val is 22, sum = 44914
+line: 75sixseven59
+  val is 79, sum = 44993
+line: 7kmfzqgjpqkpdhthjlseven674xdgmphfk
+  val is 74, sum = 45067
+line: eighttwo6five7
+  val is 87, sum = 45154
+line: 3eightwoxg
+  val is 32, sum = 45186
+line: 22434five
+  val is 25, sum = 45211
+line: khjmcpzvfpr9
+  val is 99, sum = 45310
+line: 3rrzqzlrljgcvdnxj6four8six
+  val is 36, sum = 45346
+line: 63qrgqklszpgthreefkpzx
+  val is 63, sum = 45409
+line: 574htclbtzfivetwo
+  val is 52, sum = 45461
+line: jtwofqfpkflzt9
+  val is 29, sum = 45490
+line: xnjzxpmmdln4lzlmlk41
+  val is 41, sum = 45531
+line: 6jdzjjmz7jt7seven8fourkgttztbsktwoneps
+  val is 61, sum = 45592
+line: 72s166zpslq5
+  val is 75, sum = 45667
+line: 3553lhkdcxvhqbddrfdbc5two
+  val is 32, sum = 45699
+line: 4gktbmone
+  val is 41, sum = 45740
+line: fouronefives3qhglmzttwoeightone
+  val is 41, sum = 45781
+line: one87rxkkhfrjfrpdjjt485
+  val is 15, sum = 45796
+line: one437nine
+  val is 19, sum = 45815
+line: 119one
+  val is 11, sum = 45826
+line: 5lseven87nmxxqvhmn
+  val is 57, sum = 45883
+line: pphfmcfhxlsevensqdmtvtpvq1
+  val is 71, sum = 45954
+line: 18eightfivefour
+  val is 14, sum = 45968
+line: three98
+  val is 38, sum = 46006
+line: 4onephzhtq4qc5four
+  val is 44, sum = 46050
+line: 26zglkpjvz3twoeight
+  val is 28, sum = 46078
+line: 7mxkdrbpnk29
+  val is 79, sum = 46157
+line: ppeight15
+  val is 85, sum = 46242
+line: 9jnprvtmscsixbbpsixfivecktgvdpf5
+  val is 95, sum = 46337
+line: lbftvcngvkvxf5cmmrqljjb471
+  val is 51, sum = 46388
+line: eight3knrvtwo
+  val is 82, sum = 46470
+line: one6pvbpkqkpdsixbv
+  val is 16, sum = 46486
+line: eight2onethree6eight
+  val is 88, sum = 46574
+line: 5rztcbtfjkb2twoeight39hxppvpxqg
+  val is 59, sum = 46633
+line: 8threemlllncmfourthree
+  val is 83, sum = 46716
+line: vhtsmncssixbmlpggvmlzdxbczgc1fxrgvsbhsrbs
+  val is 61, sum = 46777
+line: ninebnpv7575three
+  val is 93, sum = 46870
+line: 4mthree
+  val is 43, sum = 46913
+line: fourtwo1qrbfourjrjmlxjr
+  val is 44, sum = 46957
+line: 3jbkcsrqznc8
+  val is 38, sum = 46995
+line: pcgrxgf4eight54
+  val is 44, sum = 47039
+line: seven5mjk
+  val is 75, sum = 47114
+line: ninenine6vmcmlxmcrbvq1nine8
+  val is 98, sum = 47212
+line: sixone2ninesixrdqfgpxddzthreetcheight
+  val is 68, sum = 47280
+line: 899lfbzhgn151
+  val is 81, sum = 47361
+line: 46nineone
+  val is 41, sum = 47402
+line: 7one2qthree
+  val is 73, sum = 47475
+line: nine2hjnfourninesixvblnqbgctwoeight
+  val is 98, sum = 47573
+line: qkggsnnthrxnrccbgs583
+  val is 53, sum = 47626
+line: 351zkxqtmbd9sixthreegjjxt
+  val is 33, sum = 47659
+line: zrchlhmqcthreeninesmxz9
+  val is 39, sum = 47698
+line: 219fivejrxgbjvvcxkjtwoseven
+  val is 27, sum = 47725
+line: 8threebzzsxdx
+  val is 83, sum = 47808
+line: nine249ninefmlhj8rfour
+  val is 94, sum = 47902
+line: 16zfljhfdcmkthree
+  val is 13, sum = 47915
+line: 7sixjvdqgpvhmndpmhhzsphceight
+  val is 78, sum = 47993
+line: two2zjqc4nfd6732
+  val is 22, sum = 48015
+line: 41threeseven1fourseven
+  val is 47, sum = 48062
+line: 296fourgnq7three
+  val is 23, sum = 48085
+line: tbzdhbhs7ntshptcgrbkjspjdz
+  val is 77, sum = 48162
+line: 55qcrmclmcck9
+  val is 59, sum = 48221
+line: 25mhmtb3dscmjbhgv3four
+  val is 24, sum = 48245
+line: bjmhkxsffourhnxkxv1
+  val is 41, sum = 48286
+line: jvntlbn5fivegjdcjl
+  val is 55, sum = 48341
+line: 7gndbbbneight
+  val is 78, sum = 48419
+line: 357623chktvtfzvf
+  val is 33, sum = 48452
+line: 169plhsshseven
+  val is 17, sum = 48469
+line: nhgsrxcdfktpbzf9vpppxzkznine9
+  val is 99, sum = 48568
+line: xrdnlbmtdeightone3threeeighttwo
+  val is 82, sum = 48650
+line: bnnqzcfoneeight2hhdfkrrqzt
+  val is 12, sum = 48662
+line: 342tlmjgtfcnine
+  val is 39, sum = 48701
+line: 47rvtfqlzgmjlqbqthree
+  val is 43, sum = 48744
+line: 7gnmxplrjbvfour6
+  val is 76, sum = 48820
+line: mcgbldbhlh1eightnine
+  val is 19, sum = 48839
+line: two9eightxnpdj61kzcdpnpnpfgsdrbcflh
+  val is 21, sum = 48860
+line: 6541fourpkdplksnkpvkjxpdnvfttlfdflz
+  val is 64, sum = 48924
+line: kfour7
+  val is 47, sum = 48971
+line: x4tpbnnvnjlseven
+  val is 47, sum = 49018
+line: 55nineninesevenzttsztwo9nlcqjq
+  val is 59, sum = 49077
+line: 1drhjrzsbvpl
+  val is 11, sum = 49088
+line: mpknzhj9vmqckrpznqthreesj9
+  val is 99, sum = 49187
+line: 211zqgpdlmpn
+  val is 21, sum = 49208
+line: 4jxzrztg5onehnzvdbtcqdtsnkqtdvsd1fournine
+  val is 49, sum = 49257
+line: bvcrcz5four4
+  val is 54, sum = 49311
+line: 4nineninecfhgtdphone9
+  val is 49, sum = 49360
+line: zbkjgbshqqkrcb3qmtfmdrdcckcsxshjb2
+  val is 32, sum = 49392
+line: 1eightrblhbhljvkpshmrxc5
+  val is 15, sum = 49407
+line: hjcrrdsvnbqktxrgmq9nqgcztbv
+  val is 99, sum = 49506
+line: 6lzsixl5one
+  val is 61, sum = 49567
+line: twofivesevenfivesixonenine5seven
+  val is 27, sum = 49594
+line: fourmldkgnzb8djlsdmjnzxbmmvpf59seven
+  val is 47, sum = 49641
+line: 8hnfkknnsrhm
+  val is 88, sum = 49729
+line: three2krtqmmxqzs4jbrnrtrxzxsllblbkjmthcrlxxkdlh
+  val is 34, sum = 49763
+line: mglfmvvnthreefour1
+  val is 31, sum = 49794
+line: onehxz4fourhqcfvdlhg
+  val is 14, sum = 49808
+line: zrzqdgs5jsttkrone
+  val is 51, sum = 49859
+line: sevenrdmhnldsmdnineqfrgjhmhnnqkztxzm7
+  val is 77, sum = 49936
+line: 63seven
+  val is 67, sum = 50003
+line: 2seven3mrsltqb17
+  val is 27, sum = 50030
+line: fdbtvthmmrb5gbxvcmtwosixt5five
+  val is 55, sum = 50085
+line: eightlzglvxfone5five7dlqpmseven5
+  val is 85, sum = 50170
+line: dmzdkbfive98onefivehhbljrnz
+  val is 55, sum = 50225
+line: eight8ninefour
+  val is 84, sum = 50309
+line: 24nvmftwofive
+  val is 25, sum = 50334
+line: seven3onefourrmgkxtcsfour
+  val is 74, sum = 50408
+line: fgpxmqqsfdrk8eight8zhcrzvrzmdxbbfive
+  val is 85, sum = 50493
+line: eightonetwo7ninesjsrlr
+  val is 89, sum = 50582
+line: rrkrrtnkq941sixone
+  val is 91, sum = 50673
+line: threeffspgv3eightfivesix5
+  val is 35, sum = 50708
+line: lthnrlgfcnine2scdcvnineseven
+  val is 97, sum = 50805
+line: sx86
+  val is 86, sum = 50891
+line: cxklrckbz5lsqq28
+  val is 58, sum = 50949
+line: 5seven298
+  val is 58, sum = 51007
+line: 933five5cmddfj46
+  val is 96, sum = 51103
+line: hrhhs76343
+  val is 73, sum = 51176
+line: one3two4fourst4three
+  val is 13, sum = 51189
+line: nine3three
+  val is 93, sum = 51282
+line: dhtscvgm9foureight81vp
+  val is 91, sum = 51373
+line: btpeightpzbtphdlcm8fiverknbrhthreelxndqcv
+  val is 83, sum = 51456
+line: one96six45tm
+  val is 15, sum = 51471
+line: fourninetkdrvnbznnine22
+  val is 42, sum = 51513
+line: vxeightwothree5cd3jcnine
+  val is 89, sum = 51602
+line: seven5one4one7ninefive3
+  val is 73, sum = 51675
+line: nflkr2dlmtsrkrgkfvsixxvznjbvz3btxkhhqcc
+  val is 23, sum = 51698
+line: eightrtz6jslqxsixoneeightnine
+  val is 89, sum = 51787
+line: xmvxn5
+  val is 55, sum = 51842
+line: tgnlrmjtkjdpbnpmsixbxfnl7sixone
+  val is 61, sum = 51903
+line: htwonezcshpqgsix73qlgdqnkjskjthree
+  val is 23, sum = 51926
+line: nrlkxq6fnfourseven
+  val is 67, sum = 51993
+line: zmrlngjdhc41four4fourptrhddthreenhzv
+  val is 43, sum = 52036
+line: n9twogdrzkcsbk8hph6
+  val is 96, sum = 52132
+line: 436sevens7cnkrrk
+  val is 47, sum = 52179
+line: 6qkdvkhtwo
+  val is 62, sum = 52241
+line: mztkszm39
+  val is 39, sum = 52280
+line: fourtwo4mqhjkkdzgffhqfktwonine
+  val is 49, sum = 52329
+line: hbthree2hvpbznlgrxfgkthfour8
+  val is 38, sum = 52367
+line: 34prfzlx4three
+  val is 33, sum = 52400
+line: 29zzfdvghll9three6
+  val is 26, sum = 52426
+line: two83
+  val is 23, sum = 52449
+line: one982
+  val is 12, sum = 52461
+line: 36hhgdf7
+  val is 37, sum = 52498
+line: seven6ninednnine9mbtzfm1
+  val is 71, sum = 52569
+line: one38
+  val is 18, sum = 52587
+line: seventhree5lsjxknqtdsbtxrkone
+  val is 71, sum = 52658
+line: eightmfctkbc9jlxgdnchlq9one8nine
+  val is 89, sum = 52747
+line: p371b
+  val is 31, sum = 52778
+line: 9ninejszqsnpkfbthree1h5xscpfzvl
+  val is 95, sum = 52873
+line: three9ljd
+  val is 39, sum = 52912
+line: fbbv9
+  val is 99, sum = 53011
+line: five582
+  val is 52, sum = 53063
+line: 58dctdbhbninesixczhd
+  val is 56, sum = 53119
+line: qp4
+  val is 44, sum = 53163
+line: 6pfqdeight
+  val is 68, sum = 53231
+line: 3onethreekqnnlt
+  val is 33, sum = 53264
+line: m4fgbmdtwo3
+  val is 43, sum = 53307
+line: twodkrmtqs4
+  val is 24, sum = 53331
+line: 9three6
+  val is 96, sum = 53427
+line: six1798nineeightsqpvpsmcbmh
+  val is 68, sum = 53495
+line: 9qxxmrmbnine3fivefourfive3four
+  val is 94, sum = 53589
+line: one7sevenone78ninetwozqps
+  val is 12, sum = 53601
+line: 973keight9seventwo
+  val is 92, sum = 53693
+line: keightwothreethreeh6threeeightlnqdzhlt
+  val is 88, sum = 53781
+line: five94
+  val is 54, sum = 53835
+line: mqlltnfive8eighttwoqhztggvqqkcxgvgmch
+  val is 52, sum = 53887
+line: 2kpnsevenfive6
+  val is 26, sum = 53913
+line: gtmszpsjmggr3
+  val is 33, sum = 53946
+line: pm126one3
+  val is 13, sum = 53959
+line: rvcqbtz9zjtndbxlrdcxzf3
+  val is 93, sum = 54052
+line: mkninekhmtxzbjpd8threeeight7eight
+  val is 98, sum = 54150
+line: 5274xm636
+  val is 56, sum = 54206
+line: bleightfive9vdddzjdntthreerxtvdslrvbcvf
+  val is 83, sum = 54289
+line: 9eight4sixdqzrltgpzlpxtcrzxbhmsmdtwothree
+  val is 93, sum = 54382
+line: cpneightwofive3fourtwo
+  val is 82, sum = 54464
+line: one61threejxbjvsltxzpntpv
+  val is 13, sum = 54477
+line: 19581
+  val is 11, sum = 54488
+line: six2qllhlxhr1foursixz8
+  val is 68, sum = 54556
+line: 6278teight3three
+  val is 63, sum = 54619
+line: 8gstxqdngxzlxvnvphlsznr3kknftvzxcqqbrfteightthree
+  val is 83, sum = 54702
+line: 4jlzjvjfltwo7pv
+  val is 47, sum = 54749
+line: 7dvt
+  val is 77, sum = 54826
+line: blhsm4xcrbrf68ninezvhhtqgphnzxlhl
+  val is 49, sum = 54875
+line: 9dvjvfourtcthree
+  val is 93, sum = 54968
+line: onethreenfkgrvsevenkczctlgkt7
+  val is 17, sum = 54985

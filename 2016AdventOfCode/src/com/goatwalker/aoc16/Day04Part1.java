@@ -2,9 +2,7 @@ package com.goatwalker.aoc16;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.TreeSet;
 
 import com.goatwalker.utils.CharCount;

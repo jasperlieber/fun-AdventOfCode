@@ -1,18 +1,18 @@
 package com.goatwalker.utils;
 
 public class Pair<A, B> {
-    private final A first;
-    private final B second;
+    public A x;
+    public B y;
 
     public Pair(A first, B second) {
         super();
-        this.first = first;
-        this.second = second;
+        this.x = first;
+        this.y = second;
     }
 
     public int hashCode() {
-        int hashFirst = first != null ? first.hashCode() : 0;
-        int hashSecond = second != null ? second.hashCode() : 0;
+        int hashFirst = x != null ? x.hashCode() : 0;
+        int hashSecond = y != null ? y.hashCode() : 0;
 
         return (hashFirst + hashSecond) * hashSecond + hashFirst;
     }
@@ -21,12 +21,12 @@ public class Pair<A, B> {
         if (other instanceof Pair) {
             Pair<?, ?> otherPair = (Pair<?, ?>) other;
             return 
-            ((  this.first == otherPair.first ||
-                ( this.first != null && otherPair.first != null &&
-                  this.first.equals(otherPair.first))) &&
-             (  this.second == otherPair.second ||
-                ( this.second != null && otherPair.second != null &&
-                  this.second.equals(otherPair.second))) );
+            ((  this.x == otherPair.x ||
+                ( this.x != null && otherPair.x != null &&
+                  this.x.equals(otherPair.x))) &&
+             (  this.y == otherPair.y ||
+                ( this.y != null && otherPair.y != null &&
+                  this.y.equals(otherPair.y))) );
         }
 
         return false;
@@ -34,11 +34,11 @@ public class Pair<A, B> {
 
     public String toString()
     { 
-           return "(" + first + ", " + second + ")"; 
+           return "(" + x + ", " + y + ")"; 
     }
 
     public A getFirst() {
-        return first;
+        return x;
     }
 
 //    public void setFirst(A first) {
@@ -46,7 +46,7 @@ public class Pair<A, B> {
 //    }
 
     public B getSecond() {
-        return second;
+        return y;
     }
 
 //    public void setSecond(B second) {

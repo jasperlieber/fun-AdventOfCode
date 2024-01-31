@@ -3,7 +3,6 @@ package com.goatwalker.aoc16;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Arrays;
-import java.util.Vector;
 
 public class Day03Part1 
 {
