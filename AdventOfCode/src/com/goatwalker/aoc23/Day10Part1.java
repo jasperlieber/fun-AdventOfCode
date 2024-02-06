@@ -193,7 +193,7 @@ public class Day10Part1 {
   }
 
   private char[][] makeMap() {
-    char[][] map = new char[rowCnt][colCnt];
+    char[][] map = new char[rowCnt][];
     int row = 0;
     for (String line : lines) {
       map[row++] = line.toCharArray();

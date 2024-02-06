@@ -492,8 +492,8 @@ public class Day10Part2 {
    * @param lines
    */
   private void makeMaps(ArrayList<String> lines) {
-    loopCells = new boolean[rowCnt][colCnt];
-    map = new char[rowCnt][colCnt];
+    loopCells = new boolean[rowCnt][];
+    map = new char[rowCnt][];
     int row = 0;
     for (String line : lines) {
       loopCells[row] = new boolean[colCnt];
