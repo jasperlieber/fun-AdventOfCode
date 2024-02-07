@@ -8,16 +8,14 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Day12Part1 {
+public class Day12Part2 {
 
-  String datafile = "2023_data\\day12p1.txt";
-//  String datafile = "2023_data\\day12.txt";
-//  String datafile = "2023_data\\day12test1.txt";
+  String datafile = "2023_data\\day12.txt";
 
   long answer = 0;
 
   public static void main(String[] args) throws FileNotFoundException {
-    Day12Part1 game = new Day12Part1();
+    Day12Part2 game = new Day12Part2();
     game.doit();
   }
 
@@ -40,7 +38,6 @@ public class Day12Part1 {
   }
 
   private int processLine(String line) {
-//    System.out.println(line);
     String[] reports = line.split(" ");
     System.out.printf("%s %s\n", reports[0], reports[1]);
 
@@ -54,25 +51,22 @@ public class Day12Part1 {
     depth = 0;
     ArrayList<ArrayList<Integer>> arrangements = getArangements(springLengths, space, 0);
 
-    System.out.println(" springLengths: " + springLengths);
     System.out.println("  arrangements: " + arrangements.size());
 
     int fitCnt = 0;
     for (ArrayList<Integer> arrangement : arrangements) {
-//      System.out.println(" checking " + arrangement);
-      if (permFitsReport(arrangement, springLengths, badSpringReport)) {
+      if (checkIfArrangementFitsReport(arrangement, springLengths, badSpringReport)) {
         fitCnt++;
       }
-//      System.out.println();
     }
 
-    System.out.printf("fitCnt = %d\n\n", fitCnt);
+    System.out.printf("  fitCnt = %d\n", fitCnt);
 
     return fitCnt;
   }
 
-  private boolean permFitsReport(ArrayList<Integer> arrangement, ArrayList<Integer> springLengths,
-      String badSpringReport) {
+  private boolean checkIfArrangementFitsReport(ArrayList<Integer> arrangement,
+      ArrayList<Integer> springLengths, String badSpringReport) {
 
     String match = "";
 
@@ -107,47 +101,46 @@ public class Day12Part1 {
   private ArrayList<ArrayList<Integer>> getArangements(List<Integer> lengths, int space,
       int offset) {
 
-    ArrayList<ArrayList<Integer>> ans = new ArrayList<ArrayList<Integer>>();
+    ArrayList<ArrayList<Integer>> ans = null;
     ++depth;
+
     int lenCnt = lengths.size();
+
 //    System.out.printf("  in %d: lengths=%s space=%d offset=%d\n", depth, lengths, space, offset);
 
-    int len0 = lengths.get(0);
+    if (lenCnt > 0) {
 
-    if (lenCnt == 1) {
-      if (len0 <= space) {
-        for (int jj = offset; jj <= space + offset - len0; jj++) {
-
-          ArrayList<Integer> an = new ArrayList<Integer>();
-          an.add(jj);
-          ans.add(an);
-        }
-      }
-    } else {
+      int len0 = lengths.get(0);
 
       List<Integer> subList = lengths.subList(1, lenCnt);
 
-      for (int jj = offset;; jj++) {
+      ans = new ArrayList<ArrayList<Integer>>();
+
+      for (int jj = offset; jj <= space + offset - len0; jj++) {
+//        System.out.printf("  in %d: checking j=%d (between %d & %d)\n", depth, jj, offset,
+//            space + offset - len0);
 
         int newSpace = space - len0 - 1 - jj + offset;
         int newOffset = len0 + 1 + jj;
 
         ArrayList<ArrayList<Integer>> recurses = getArangements(subList, newSpace, newOffset);
-        if (recurses.size() == 0)
-          break;
 
-        for (ArrayList<Integer> recurse : recurses) {
-
+        if (recurses == null) {
           ArrayList<Integer> an = new ArrayList<Integer>();
           an.add(jj);
-          an.addAll(recurse);
           ans.add(an);
+        } else {
+          for (ArrayList<Integer> recurse : recurses) {
+            ArrayList<Integer> an = new ArrayList<Integer>();
+            an.add(jj);
+            an.addAll(recurse);
+            ans.add(an);
+          }
         }
       }
     }
     --depth;
-    if (depth < 15)
-      System.out.printf(" out %d: ans=%d\n", depth, ans.size());
+//    System.out.printf(" out %d: ans=%s\n", depth, ans);
 
     return ans;
   }
