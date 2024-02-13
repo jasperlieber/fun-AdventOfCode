@@ -1,8 +1,8 @@
 package com.goatwalker.aoc23;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -10,139 +10,151 @@ import java.util.stream.Stream;
 
 public class Day12Part2 {
 
+  private static final boolean log = false;
+  private static final boolean log2 = false;
+
   String datafile = "2023_data\\day12.txt";
 
-  long answer = 0;
-
-  public static void main(String[] args) throws FileNotFoundException {
+  public static void main(String[] args) throws Exception {
     Day12Part2 game = new Day12Part2();
     game.doit();
   }
 
-  private void doit() throws FileNotFoundException {
-    loadData();
+  private void doit() throws Exception {
+    long answer = loadData();
     System.out.println("answer = " + answer);
   }
 
-  private void loadData() throws FileNotFoundException {
+  private long loadData() throws Exception {
+    long answer = 0;
     File file = new File(datafile);
     Scanner scanner = new Scanner(file);
     try {
       while (scanner.hasNextLine()) {
         String line = scanner.nextLine();
+        if (line.length() == 0)
+          return -1;
         answer += processLine(line);
       }
     } finally {
       scanner.close();
     }
+    return answer;
   }
 
-  private int processLine(String line) {
-    String[] reports = line.split(" ");
-    System.out.printf("%s %s\n", reports[0], reports[1]);
+  private long processLine(String line) throws Exception {
 
-    String badSpringReport = reports[0];
-    int space = badSpringReport.length();
+    String[] reports = line.split(" ");
+    if (log)
+      System.out.printf("%s %s\n", reports[0], reports[1]);
+
+    String badSpringsReport = reports[0];
 
     List<Integer> intList = Stream.of(reports[1].split(",")).map(Integer::parseInt)
         .collect(Collectors.toList());
     ArrayList<Integer> springLengths = new ArrayList<Integer>(intList);
 
-    depth = 0;
-    ArrayList<ArrayList<Integer>> arrangements = getArangements(springLengths, space, 0);
+    // For Part 2, multiply input by 5
+    badSpringsReport = badSpringsReport + "?" + badSpringsReport + "?" + badSpringsReport + "?"
+        + badSpringsReport + "?" + badSpringsReport;
+    springLengths.addAll(intList);
+    springLengths.addAll(intList);
+    springLengths.addAll(intList);
+    springLengths.addAll(intList);
 
-    System.out.println("  arrangements: " + arrangements.size());
-
-    int fitCnt = 0;
-    for (ArrayList<Integer> arrangement : arrangements) {
-      if (checkIfArrangementFitsReport(arrangement, springLengths, badSpringReport)) {
-        fitCnt++;
-      }
-    }
-
-    System.out.printf("  fitCnt = %d\n", fitCnt);
+    long fitCnt = getCountOfPossibilites(badSpringsReport, springLengths);
+    if (log)
+      System.out.println(fitCnt);
 
     return fitCnt;
   }
 
-  private boolean checkIfArrangementFitsReport(ArrayList<Integer> arrangement,
-      ArrayList<Integer> springLengths, String badSpringReport) {
+  /**
+   * My method for counting possibilities for Part One was to use recursion to
+   * generate all possible positions for the damaged springs, which worked for
+   * small enough sample data. But Part Two quintuples the input data, and this
+   * caused excessively long run times. So, thanks to a detailed description of a
+   * solution using dynamic programming from
+   * https://www.ericburden.work/blog/2023/12/12/advent-of-code-day-12/, here's my
+   * version of a DP solution.
+   * 
+   * @param badSpringReport
+   * @param springLengths
+   * @return count of possible ways to fit bad springs into the badSpringsReport
+   */
+  private long getCountOfPossibilites(String badSprinsgReport, ArrayList<Integer> springLengths) {
 
-    String match = "";
+    // can remove from initial operational springs since we are trying to find out
+    // how to pack damaged springs. But add one initial operational spring to
+    // support the counting algorithm.
+    badSprinsgReport = "." + badSprinsgReport.replaceAll("^\\.+", "");
+    int reportLen = badSprinsgReport.length();
 
-    int nextPos = arrangement.get(0);
-    if (nextPos > 0) {
-      // verify preceding dots
-      int dotPos = nextPos;
-      match += "[\\?\\.]{" + dotPos + "}";
+    // Dynamic programming considers solutions under increasing constraints. The
+    // first constraint is no damaged springs, then the constraints incrementally
+    // increase by the damaged groups provided in the springLengths list. The list
+    // also includes an extra initial hypothetical operational springs, so that
+    // algorithm works smoothly.
+
+    // The initial state of possibilities is all 1s up to the first damaged spring.
+    // Starting Conditions : [., ?, ?, ?, ., #, #, #]
+    // Possible Combinations: [1, 1, 1, 1, 1, 1, 0, 0, 0]
+
+    long[] possibilites = new long[reportLen + 1];
+    possibilites[0] = 1;
+    boolean damaged = false;
+    for (int jj = 1; jj <= reportLen; jj++) {
+      damaged |= badSprinsgReport.charAt(jj - 1) == '#';
+      possibilites[jj] = damaged ? 0 : 1;
     }
+    if (log2)
+      System.out.println(badSprinsgReport + " " + Arrays.toString(possibilites));
 
-    for (int jj = 0; jj < arrangement.size(); jj++) {
-      int springLength = springLengths.get(jj);
-      int position = arrangement.get(jj);
+    // Use each group size in badSprinsgReport to incrementally increase the
+    // constraints.
+    for (int groupSize : springLengths) {
 
-      match += "[\\?#]{" + springLength + "}";
+      // build a list of possibilities for springLengths of groupSize length.
 
-      // verify succeeding dots
-      nextPos = (jj != arrangement.size() - 1) ? arrangement.get(jj + 1) : badSpringReport.length();
-//      int dotPos = position + springLength;
-      int dotCnt = nextPos - position - springLength;
-      if (dotCnt > 0)
-        match += "[\\?\\.]{" + dotCnt + "}";
+      long[] nextPoss = new long[reportLen + 1]; // java conveniently inits these all to zero
 
-    }
-    boolean fit = badSpringReport.matches(match);
-//    System.out.printf("     %b - %s matches %s\n", fit, badSpringReport, match);
-    return fit;
-  }
+      int possiblyDamagedRunSize = 0;
 
-  int depth;
+      for (int jj = 1; jj < reportLen; jj++) {
+        possiblyDamagedRunSize = badSprinsgReport.charAt(jj) == '.' ? 0
+            : (possiblyDamagedRunSize + 1);
 
-  private ArrayList<ArrayList<Integer>> getArangements(List<Integer> lengths, int space,
-      int offset) {
-
-    ArrayList<ArrayList<Integer>> ans = null;
-    ++depth;
-
-    int lenCnt = lengths.size();
-
-//    System.out.printf("  in %d: lengths=%s space=%d offset=%d\n", depth, lengths, space, offset);
-
-    if (lenCnt > 0) {
-
-      int len0 = lengths.get(0);
-
-      List<Integer> subList = lengths.subList(1, lenCnt);
-
-      ans = new ArrayList<ArrayList<Integer>>();
-
-      for (int jj = offset; jj <= space + offset - len0; jj++) {
-//        System.out.printf("  in %d: checking j=%d (between %d & %d)\n", depth, jj, offset,
-//            space + offset - len0);
-
-        int newSpace = space - len0 - 1 - jj + offset;
-        int newOffset = len0 + 1 + jj;
-
-        ArrayList<ArrayList<Integer>> recurses = getArangements(subList, newSpace, newOffset);
-
-        if (recurses == null) {
-          ArrayList<Integer> an = new ArrayList<Integer>();
-          an.add(jj);
-          ans.add(an);
+        boolean groupCanFit = possiblyDamagedRunSize >= groupSize;
+        int precedingIndex = jj - groupSize;
+        if (precedingIndex < 0)
+          precedingIndex = 0;
+        boolean notContiguousDamage = badSprinsgReport.charAt(precedingIndex) != '#';
+        boolean isNotDamaged = badSprinsgReport.charAt(jj) != '#';
+        boolean damageCanFit = groupCanFit && notContiguousDamage;
+        if (isNotDamaged && damageCanFit) {
+          nextPoss[jj + 1] = nextPoss[jj] + possibilites[precedingIndex];
+        } else if (badSprinsgReport.charAt(jj) == '#' && damageCanFit) {
+          nextPoss[jj + 1] = possibilites[precedingIndex];
+        } else if (isNotDamaged) {
+          nextPoss[jj + 1] = nextPoss[jj];
         } else {
-          for (ArrayList<Integer> recurse : recurses) {
-            ArrayList<Integer> an = new ArrayList<Integer>();
-            an.add(jj);
-            an.addAll(recurse);
-            ans.add(an);
-          }
+          nextPoss[jj + 1] = 0;
         }
+        if (log2)
+          System.out.printf(
+              "jj=%d ch=%c possiblyDamagedRunSize=%d groupCanFit=%5b precedingIndex=%d notContiguousDamage=%5b isNotDamaged=%5b damageCanFit-%5b\n",
+              jj, badSprinsgReport.charAt(jj), possiblyDamagedRunSize, groupCanFit, precedingIndex,
+              notContiguousDamage, isNotDamaged, damageCanFit);
       }
-    }
-    --depth;
-//    System.out.printf(" out %d: ans=%s\n", depth, ans);
 
-    return ans;
+      possibilites = nextPoss;
+
+      if (log)
+        System.out.println("after len=" + groupSize + ", poss: " + Arrays.toString(possibilites));
+
+    }
+
+    return possibilites[reportLen];
   }
 
 }

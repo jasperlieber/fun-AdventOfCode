@@ -8,11 +8,15 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * Note that the solution for part 2 of this problem is much faster than this
+ * solution. Leaving this solution to show evolution of thinking!
+ *
+ */
+
 public class Day12Part1 {
 
-  String datafile = "2023_data\\day12p1.txt";
-//  String datafile = "2023_data\\day12.txt";
-//  String datafile = "2023_data\\day12test1.txt";
+  String datafile = "2023_data\\day12.txt";
 
   long answer = 0;
 
@@ -60,7 +64,7 @@ public class Day12Part1 {
     int fitCnt = 0;
     for (ArrayList<Integer> arrangement : arrangements) {
 //      System.out.println(" checking " + arrangement);
-      if (permFitsReport(arrangement, springLengths, badSpringReport)) {
+      if (arrangementFitsReport(arrangement, springLengths, badSpringReport)) {
         fitCnt++;
       }
 //      System.out.println();
@@ -71,8 +75,17 @@ public class Day12Part1 {
     return fitCnt;
   }
 
-  private boolean permFitsReport(ArrayList<Integer> arrangement, ArrayList<Integer> springLengths,
-      String badSpringReport) {
+  /**
+   * Given an arrangement of springs (an array of starting positions and an array
+   * of spring lengths), return if the arrangement fits the report.
+   * 
+   * @param arrangement
+   * @param springLengths
+   * @param badSpringsReport
+   * @return whether the arrangement can fit the report
+   */
+  private boolean arrangementFitsReport(ArrayList<Integer> arrangement,
+      ArrayList<Integer> springLengths, String badSpringsReport) {
 
     String match = "";
 
@@ -90,20 +103,31 @@ public class Day12Part1 {
       match += "[\\?#]{" + springLength + "}";
 
       // verify succeeding dots
-      nextPos = (jj != arrangement.size() - 1) ? arrangement.get(jj + 1) : badSpringReport.length();
-//      int dotPos = position + springLength;
+      nextPos = (jj != arrangement.size() - 1) ? arrangement.get(jj + 1)
+          : badSpringsReport.length();
       int dotCnt = nextPos - position - springLength;
       if (dotCnt > 0)
         match += "[\\?\\.]{" + dotCnt + "}";
 
     }
-    boolean fit = badSpringReport.matches(match);
+    boolean fit = badSpringsReport.matches(match);
 //    System.out.printf("     %b - %s matches %s\n", fit, badSpringReport, match);
     return fit;
   }
 
   int depth;
 
+  /**
+   * Recursively discover all possible arrangements of the supplied spring lengths
+   * into the supplied space. Also supplied is the offset the first spring has in
+   * the original space.
+   * 
+   * @param lengths a list of integer spring lengths
+   * @param space   how much space is available for the springs
+   * @param offset  the offset of the first spring in the original space
+   * @return an array of arrays of ints, each inner array containing the start
+   *         positions of springs
+   */
   private ArrayList<ArrayList<Integer>> getArangements(List<Integer> lengths, int space,
       int offset) {
 
@@ -146,8 +170,8 @@ public class Day12Part1 {
       }
     }
     --depth;
-    if (depth < 15)
-      System.out.printf(" out %d: ans=%d\n", depth, ans.size());
+//    if (depth < 15)
+//      System.out.printf(" out %d: ans=%d\n", depth, ans.size());
 
     return ans;
   }
