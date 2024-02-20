@@ -1,12 +1,13 @@
 package com.goatwalker.aoc23.day16;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Scanner;
+
+import com.goatwalker.utils.MyCardinalDirection;
+import com.goatwalker.utils.MyFileReader;
 
 /**
- * Puzzle description: https://adventofcode.com/2023/day/15
+ * Puzzle description: https://adventofcode.com/2023/day/16
  */
 public class Day16Part2 {
 
@@ -18,7 +19,7 @@ public class Day16Part2 {
   }
 
   private void doit() throws Exception {
-    ArrayList<String> lines = loadData();
+    ArrayList<String> lines = MyFileReader.readFile(datafile);
     int maxEnergized = 0;
     int cnt = 0;
     D16Grid origGrid = new D16Grid(lines);
@@ -26,7 +27,7 @@ public class Day16Part2 {
     // shoot from the left
     for (int row = 0; row < origGrid.numRows; row++) {
       D16Grid d16grid = origGrid.clone();
-      cnt = d16grid.rayTrace(new D16Ray(-1, row, D16Dir.east));
+      cnt = d16grid.rayTrace(new D16Ray(-1, row, MyCardinalDirection.east));
       if (cnt > maxEnergized)
         maxEnergized = cnt;
     }
@@ -34,7 +35,7 @@ public class Day16Part2 {
     // shoot from the bottom
     for (int col = 0; col < origGrid.numCols; col++) {
       D16Grid d16grid = origGrid.clone();
-      cnt = d16grid.rayTrace(new D16Ray(col, d16grid.numRows, D16Dir.north));
+      cnt = d16grid.rayTrace(new D16Ray(col, d16grid.numRows, MyCardinalDirection.north));
       if (cnt > maxEnergized)
         maxEnergized = cnt;
     }
@@ -42,7 +43,7 @@ public class Day16Part2 {
     // shoot from the right
     for (int row = 0; row < origGrid.numRows; row++) {
       D16Grid d16grid = origGrid.clone();
-      cnt = d16grid.rayTrace(new D16Ray(d16grid.numCols, row, D16Dir.west));
+      cnt = d16grid.rayTrace(new D16Ray(d16grid.numCols, row, MyCardinalDirection.west));
       if (cnt > maxEnergized)
         maxEnergized = cnt;
     }
@@ -50,7 +51,7 @@ public class Day16Part2 {
     // shoot from the top
     for (int col = 0; col < origGrid.numCols; col++) {
       D16Grid d16grid = origGrid.clone();
-      cnt = d16grid.rayTrace(new D16Ray(col, -1, D16Dir.south));
+      cnt = d16grid.rayTrace(new D16Ray(col, -1, MyCardinalDirection.south));
       if (cnt > maxEnergized)
         maxEnergized = cnt;
     }
@@ -58,23 +59,6 @@ public class Day16Part2 {
     System.out.println("max = " + maxEnergized);
   }
 
-  private ArrayList<String> loadData() throws Exception {
-    ArrayList<String> lines = new ArrayList<String>();
-    File file = new File(datafile);
-    Scanner scanner = new Scanner(file);
-    try {
-      while (scanner.hasNextLine()) {
-        String line = scanner.nextLine();
-        lines.add(line);
-      }
-
-    } finally {
-      scanner.close();
-    }
-    return lines;
-
-//    System.out.println(d16grid);
-  }
   /////////////////////////////////////////////////////////////////////////
 
   /**
@@ -85,12 +69,13 @@ public class Day16Part2 {
   private class D16Ray {
 
     int row, col; // where the ray is coming from
-    D16Dir points = new D16Dir(); // the direction the ray is pointing
+    MyCardinalDirection points = new MyCardinalDirection(); // the direction the ray is
+                                                            // pointing
 
-    public D16Ray(int c, int r, byte d) {
-      row = r;
-      col = c;
-      points.dir = d;
+    public D16Ray(int x, int y, byte direction) {
+      row = y;
+      col = x;
+      points.dir = direction;
     }
 
     public D16Ray copy() {
@@ -106,14 +91,14 @@ public class Day16Part2 {
      */
     public byte getReflectedRayDir(char sym) throws Exception {
       switch (points.dir) {
-      case D16Dir.north:
-        return sym == '/' ? D16Dir.east : D16Dir.west;
-      case D16Dir.east:
-        return sym == '/' ? D16Dir.north : D16Dir.south;
-      case D16Dir.south:
-        return sym == '/' ? D16Dir.west : D16Dir.east;
-      case D16Dir.west:
-        return sym == '/' ? D16Dir.south : D16Dir.north;
+      case MyCardinalDirection.north:
+        return sym == '/' ? MyCardinalDirection.east : MyCardinalDirection.west;
+      case MyCardinalDirection.east:
+        return sym == '/' ? MyCardinalDirection.north : MyCardinalDirection.south;
+      case MyCardinalDirection.south:
+        return sym == '/' ? MyCardinalDirection.west : MyCardinalDirection.east;
+      case MyCardinalDirection.west:
+        return sym == '/' ? MyCardinalDirection.south : MyCardinalDirection.north;
       default:
         throw new Exception("unknow direction " + points);
       }
@@ -135,7 +120,8 @@ public class Day16Part2 {
   private class D16Tile {
 
     final char sym;
-    public D16Dir visitedDirs = new D16Dir(); // bitwise union of visited ray directions
+    // bitwise union of visited ray directions
+    public MyCardinalDirection visitedDirs = new MyCardinalDirection();
 
     public D16Tile(char sym) {
       this.sym = sym;
@@ -148,38 +134,6 @@ public class Day16Part2 {
   }
 
   /////////////////////////////////////////////////////////////////////////
-
-  private class D16Dir {
-
-    // boolean values for directions
-    public static final byte north = 0b0001;
-    public static final byte south = 0b0010;
-    public static final byte west = 0b0100;
-    public static final byte east = 0b1000;
-
-    private byte dir = 0;
-
-    public String dirStr() {
-      String str = "";
-      if ((dir & north) != 0)
-        str += "N";
-      if ((dir & east) != 0)
-        str += "E";
-      if ((dir & south) != 0)
-        str += "S";
-      if ((dir & west) != 0)
-        str += "W";
-      return str == "" ? "none" : str;
-    }
-
-    public boolean isEastOrWest() {
-      return ((dir & east) != 0) || ((dir & west) != 0);
-    }
-
-    public boolean isNorthOrSouth() {
-      return ((dir & north) != 0) || ((dir & south) != 0);
-    }
-  }
 
   /**
    * The grid holds all the tiles, and a count of visited tiles.
@@ -259,17 +213,17 @@ public class Day16Part2 {
           // hit a splitter -- add a 2nd ray
           case '|':
             if (ray.points.isEastOrWest()) {
-              ray.points.dir = D16Dir.north;
+              ray.points.dir = MyCardinalDirection.north;
               D16Ray ray2 = ray.copy();
-              ray2.points.dir = D16Dir.south;
+              ray2.points.dir = MyCardinalDirection.south;
               bfsList.add(ray2);
             }
             break;
           case '-':
             if (ray.points.isNorthOrSouth()) {
-              ray.points.dir = D16Dir.west;
+              ray.points.dir = MyCardinalDirection.west;
               D16Ray ray2 = ray.copy();
-              ray2.points.dir = D16Dir.east;
+              ray2.points.dir = MyCardinalDirection.east;
               bfsList.add(ray2);
             }
             break;
@@ -293,8 +247,8 @@ public class Day16Part2 {
     }
 
     /**
-     * Record that this tile pointed to by the ray has been visited in a the ray's
-     * direction.
+     * Record that this tile pointed to by the ray has been visited in the ray's
+     * direction. Increment the visitedCnt when first hit.
      * 
      * @param ray
      */
@@ -320,16 +274,16 @@ public class Day16Part2 {
     public boolean moveRayForward(D16Ray ray) {
 
       switch (ray.points.dir) {
-      case D16Dir.north:
+      case MyCardinalDirection.north:
         ray.row--;
         break;
-      case D16Dir.east:
+      case MyCardinalDirection.east:
         ray.col++;
         break;
-      case D16Dir.south:
+      case MyCardinalDirection.south:
         ray.row++;
         break;
-      case D16Dir.west:
+      case MyCardinalDirection.west:
         ray.col--;
         break;
       }

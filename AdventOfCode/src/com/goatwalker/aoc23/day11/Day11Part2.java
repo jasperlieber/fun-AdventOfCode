@@ -8,14 +8,14 @@ import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import com.goatwalker.utils.IntCoord;
+import com.goatwalker.utils.IntPair;
 
 public class Day11Part2 {
 
-  String datafile = "2023_data\\d11p1.txt";
+  String datafile = "src/com/goatwalker/aoc23/day11/d11p1.txt";
 
   char[][] map;
-  ArrayList<IntCoord> galaxyCoords = new ArrayList<IntCoord>(); // col, row
+  ArrayList<IntPair> galaxyCoords = new ArrayList<IntPair>(); // col, row
   private TreeSet<Integer> expandedColumns;
   private TreeSet<Integer> expandedRows;
 
@@ -114,7 +114,7 @@ public class Day11Part2 {
       } else {
         // collect all column locations of galaxies
         while (galaxyCol >= 0) {
-          galaxyCoords.add(new IntCoord(galaxyCol, rowCnt));
+          galaxyCoords.add(new IntPair(galaxyCol, rowCnt));
           galaxyColumns.add(galaxyCol);
           galaxyCol = line.indexOf('#', galaxyCol + 1);
         }
