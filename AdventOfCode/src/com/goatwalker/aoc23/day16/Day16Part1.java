@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
- * Puzzle description: https://adventofcode.com/2023/day/15
+ * Puzzle description: https://adventofcode.com/2023/day/16
  */
 public class Day16Part1 {
 
