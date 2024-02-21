@@ -15,31 +15,42 @@ import com.goatwalker.utils.Pair;
 /**
  * Puzzle description: https://adventofcode.com/2023/day/15
  */
-public class Day17Part1 {
+public class Day17BothParts {
 
-  String datafile = "src/com/goatwalker/aoc23/day17/test_input2.txt";
+  String datafile = "src/com/goatwalker/aoc23/day17/input.txt";
 
   D17Grid d17grid;
 
   public static void main(String[] args) throws Exception {
-    Day17Part1 puzzle = new Day17Part1();
+    Day17BothParts puzzle = new Day17BothParts();
     puzzle.doit();
   }
 
   private void doit() throws Exception {
-    d17grid = loadData();
-    int heatLoss = d17grid.findBestPath();
-    System.out.println("heat loss = " + heatLoss);
+    d17grid = loadData(datafile);
+//    System.out.println(d17grid);
+
+    final boolean part1 = true;
+
+    int heatLoss = d17grid.findBestPath(part1);
+    System.out.println("Part 1 heat loss = " + heatLoss);
+
+    heatLoss = d17grid.findBestPath(!part1);
+    System.out.println("Part 2 heat loss = " + heatLoss);
   }
 
-  private D17Grid loadData() throws FileNotFoundException {
+  public D17Grid loadData(String datafile) throws FileNotFoundException {
+
+    System.out.println("Working Directory = " + System.getProperty("user.dir"));
+    System.out.println(datafile);
+
     ArrayList<String> lines = MyFileReader.readFile(datafile);
     return new D17Grid(lines);
   }
 
 ////////////////////////////////////////////////////////////
 
-  private class D17Crucible {
+  public class D17Crucible {
 
     final IntPair loc;
     final MyCardinalDirection dir;
@@ -51,17 +62,41 @@ public class Day17Part1 {
       runLength = run;
     }
 
-    public HashSet<D17Crucible> getNeighbors() {
+    /**
+     * Get the possible neighbors for this crucible. In general, the crucible can
+     * move left, forward, or right.
+     * 
+     * In part 1, it can only move forward a max of three times.
+     * 
+     * In part 2, it can only move forward a max of 10 times, and can only turn
+     * after going forward 4 times.
+     * 
+     * @param part1 boolean if in part1 or 2
+     * @return a set of neighbors. the caller must check bounds.
+     * 
+     */
+    public HashSet<D17Crucible> getNeighbors(boolean part1) {
       HashSet<D17Crucible> neighbors = new HashSet<D17Crucible>();
-      if (runLength < 2) {
+      if (runLength < (part1 ? 3 : 10)) {
+        // move forward and increment run count
         neighbors.add(goForward(dir, runLength + 1));
       }
-      neighbors.add(goForward(dir.leftTurn(), 0));
-      neighbors.add(goForward(dir.rightTurn(), 0));
+      if (part1 || runLength >= 4) {
+        // turn and reset run count
+        neighbors.add(goForward(dir.leftTurn(), 1));
+        neighbors.add(goForward(dir.rightTurn(), 1));
+      }
 
       return neighbors;
     }
 
+    /**
+     * Given a direction, return a new crucible on the the tile in that direction.
+     * 
+     * @param dir
+     * @param runLength
+     * @return a crucible in the new spot
+     */
     private D17Crucible goForward(MyCardinalDirection dir, int runLength) {
       IntPair newLoc = new IntPair(loc);
       switch (dir.dir) {
@@ -151,21 +186,28 @@ public class Day17Part1 {
 
 ////////////////////////////////////////////////////////////
 
-  private class D17Grid {
-    final int numRows, numCols;
-    final byte[][] heatLoss;
-//    HashMap<D17Crucible, D17Crucible> minPath = new HashMap<D17Crucible, D17Crucible>();
+  /**
+   * Hold the heat map. Includes the dijkstra method to find the shortest path.
+   *
+   */
+  public class D17Grid {
+    public final int numRows, numCols;
+    public final byte[][] heatLoss;
+    public int[][] numVisits;
 
     public D17Grid(ArrayList<String> lines) {
       numRows = lines.size();
       numCols = lines.get(0).length();
       heatLoss = new byte[numCols][numRows];
+      numVisits = new int[numCols][numRows];
 
       int row = 0;
       for (String line : lines) {
         int col = 0;
         for (char ch : line.toCharArray()) {
-          heatLoss[col++][row] = (byte) (ch - '0');
+          heatLoss[col][row] = (byte) (ch - '0');
+          numVisits[col][row] = 0;
+          col++;
         }
         row++;
       }
@@ -174,23 +216,44 @@ public class Day17Part1 {
     /**
      * Use the Dijkstra path finding algorithm to find shortest path.
      * 
+     * The algorithm uses a priority queue sorted by minimal heat loss. This queue
+     * holds the minimum heat loss for a crucible state, which includes the
+     * location, direction and run length for that spot. These values can be held in
+     * the grid, because there are multiple possible paths to each grid spot. (This
+     * was a difficult bug for me to figure out.)
+     * 
+     * The Dijkstra algorithm adds initial crucibles to the queue. The algorithm
+     * then pops off the minimal crucible, and adds its neighbors to the queue. The
+     * algorithm stops when the tip of the queue contains a crucible on the end spot
+     * (and, in part 2, with a sufficient run length).
+     * 
+     * I also use a hashmap that pairs the pathways crucibles to their heat loss &
+     * their preceding location, so a path can constructed. This is not needed, but
+     * allows showing a nice pathway thru the grid.
+     * 
+     * @param part1 boolean whether to use Part 1 or Part 2 rules
+     * 
      * @return minimum heat loss
      * @throws Exception if not path found
      */
-    public int findBestPath() throws Exception {
+    public int findBestPath(boolean part1) throws Exception {
       PriorityQueue<Pair<Integer, D17Crucible>> priorityQueue = new PriorityQueue<Pair<Integer, D17Crucible>>(
           (a, b) -> a.x - b.x);
       HashMap<D17Crucible, Pair<Integer, D17Crucible>> minHeatLossMap = new HashMap<D17Crucible, Pair<Integer, D17Crucible>>();
 
       // We can start moving east because advancing will turn south too, which
       // captures both initial possible directions.
-      // It is critical that the initial run length is -1 -- this allows for the first
+      // It is critical that the initial run length is 0 -- this allows for the first
       // run to be four step, since
       // the first spot is not counted. This was a very difficult bug for me to figure
       // out.
-      D17Crucible startCrucible = new D17Crucible(new IntPair(0, 0), MyCardinalDirection.East, -1);
+      D17Crucible startCrucible = new D17Crucible(new IntPair(0, 0), MyCardinalDirection.East, 0);
       minHeatLossMap.put(startCrucible, new Pair<Integer, D17Crucible>(0, null));
       priorityQueue.add(new Pair<Integer, D17Crucible>(0, startCrucible));
+
+      D17Crucible startCrucible2 = new D17Crucible(new IntPair(0, 0), MyCardinalDirection.South, 0);
+      minHeatLossMap.put(startCrucible2, new Pair<Integer, D17Crucible>(0, null));
+      priorityQueue.add(new Pair<Integer, D17Crucible>(0, startCrucible2));
 
       IntPair goalLoc = new IntPair(d17grid.numCols - 1, d17grid.numRows - 1);
 
@@ -205,10 +268,11 @@ public class Day17Part1 {
 
         if (crucible.loc.equals(goalLoc)) {
           printPath(crucible, minHeatLossMap);
-          return crucibleHeatLoss;
+          if (part1 || crucible.runLength >= 4)
+            return crucibleHeatLoss;
         }
 
-        HashSet<D17Crucible> neighbors = crucible.getNeighbors();
+        HashSet<D17Crucible> neighbors = crucible.getNeighbors(part1);
         checkBounds(neighbors);
 
         for (D17Crucible neighbor : neighbors) {
@@ -233,11 +297,12 @@ public class Day17Part1 {
     }
 
     /**
-     * Pretty print the path to the crucible contained in the map.
+     * Pretty print the path to the crucible.
      * 
      * @param p
      * @param minPath
      */
+    @SuppressWarnings("unused")
     private void printPath(D17Crucible p,
         HashMap<D17Crucible, Pair<Integer, D17Crucible>> minPath) {
       char[][] buf1 = new char[numCols][numRows];
@@ -257,13 +322,13 @@ public class Day17Part1 {
       for (D17Crucible c = p; minPath.get(c) != null; c = minPath.get(c).getSecond()) {
         buf2[c.loc.x][c.loc.y] = c.dir.getCharDir();
         heatSum += heatLoss[c.loc.x][c.loc.y];
-        sb.insert(0,
-            c.loc + " dir=" + c.dir + " sum=" + heatSum + " min=" + minPath.get(c).x + ", ");
+//        sb.insert(0,
+//            c.loc + " dir=" + c.dir + " sum=" + heatSum + " min=" + minPath.get(c).x + ", ");
       }
 
-      sb.append(p.loc + "=" + heatSum + ", final crucible = " + p + " ");
+//      sb.append(p.loc + "=" + heatSum + ", final crucible = " + p + " ");
 
-      sb.append("\n\nheatSum = " + heatSum + "\n\n");
+      sb.append("\n\nheatSum = " + heatSum + "\n\n01234567890123\n");
 
       for (int r = 0; r < numRows; r++) {
         for (int c = 0; c < numCols; c++)
