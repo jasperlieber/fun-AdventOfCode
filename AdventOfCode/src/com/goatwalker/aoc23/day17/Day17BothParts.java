@@ -50,9 +50,9 @@ public class Day17BothParts {
 
 ////////////////////////////////////////////////////////////
 
-  public class D17Crucible {
+  static public class D17Crucible {
 
-    final IntPair loc;
+    final public IntPair loc;
     final MyCardinalDirection dir;
     final int runLength;
 
@@ -346,7 +346,7 @@ public class Day17BothParts {
      * 
      * @param neighbors
      */
-    private void checkBounds(HashSet<D17Crucible> neighbors) {
+    public void checkBounds(HashSet<D17Crucible> neighbors) {
       Iterator<D17Crucible> iter = neighbors.iterator();
       while (iter.hasNext()) {
         D17Crucible c = iter.next();
