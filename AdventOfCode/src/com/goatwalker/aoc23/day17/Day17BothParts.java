@@ -17,7 +17,14 @@ import com.goatwalker.utils.Pair;
  */
 public class Day17BothParts {
 
-  String datafile = "src/com/goatwalker/aoc23/day17/input.txt";
+  enum Algorithm {
+    part1PathRestriction,
+    part2PathRestriction,
+    noPathRestriction,
+    heatFence,
+  }
+
+  String datafile = "src/com/goatwalker/aoc23/day17/data/input.txt";
 
   D17Grid d17grid;
 
@@ -30,18 +37,16 @@ public class Day17BothParts {
     d17grid = loadData(datafile);
 //    System.out.println(d17grid);
 
-    final boolean part1 = true;
-
-    int heatLoss = d17grid.findBestPath(part1);
-    System.out.println("Part 1 heat loss = " + heatLoss);
-
-    heatLoss = d17grid.findBestPath(!part1);
-    System.out.println("Part 2 heat loss = " + heatLoss);
+    for (Algorithm alg : Algorithm.class.getEnumConstants()) {
+      System.out.println(alg);
+      int heatLoss = d17grid.findBestPath(alg);
+      System.out.println(alg + " heat loss = " + heatLoss);
+    }
   }
 
   public D17Grid loadData(String datafile) throws FileNotFoundException {
 
-    System.out.println("Working Directory = " + System.getProperty("user.dir"));
+//    System.out.println("Working Directory = " + System.getProperty("user.dir"));
     System.out.println(datafile);
 
     ArrayList<String> lines = MyFileReader.readFile(datafile);
@@ -71,22 +76,36 @@ public class Day17BothParts {
      * In part 2, it can only move forward a max of 10 times, and can only turn
      * after going forward 4 times.
      * 
-     * @param part1 boolean if in part1 or 2
+     * @param alg boolean if in part1 or 2
      * @return a set of neighbors. the caller must check bounds.
      * 
      */
-    public HashSet<D17Crucible> getNeighbors(boolean part1) {
+    public HashSet<D17Crucible> getNeighbors(Algorithm alg) {
       HashSet<D17Crucible> neighbors = new HashSet<D17Crucible>();
-      if (runLength < (part1 ? 3 : 10)) {
-        // move forward and increment run count
-        neighbors.add(goForward(dir, runLength + 1));
-      }
-      if (part1 || runLength >= 4) {
-        // turn and reset run count
+      switch (alg) {
+      case noPathRestriction:
+      case heatFence:
+        neighbors.add(goForward(dir, 0));
+        neighbors.add(goForward(dir.leftTurn(), 0));
+        neighbors.add(goForward(dir.rightTurn(), 0));
+        break;
+      case part1PathRestriction:
+        if (runLength < 3) {
+          neighbors.add(goForward(dir, runLength + 1));
+        }
         neighbors.add(goForward(dir.leftTurn(), 1));
         neighbors.add(goForward(dir.rightTurn(), 1));
+        break;
+      case part2PathRestriction:
+        if (runLength < 10) {
+          neighbors.add(goForward(dir, runLength + 1));
+        }
+        if (runLength >= 4) {
+          // turn and reset run count
+          neighbors.add(goForward(dir.leftTurn(), 1));
+          neighbors.add(goForward(dir.rightTurn(), 1));
+        }
       }
-
       return neighbors;
     }
 
@@ -187,7 +206,7 @@ public class Day17BothParts {
 ////////////////////////////////////////////////////////////
 
   /**
-   * Hold the heat map. Includes the dijkstra method to find the shortest path.
+   * Hold the heat map. Includes the Dijkstra method to find the shortest path.
    *
    */
   public class D17Grid {
@@ -231,12 +250,12 @@ public class Day17BothParts {
      * their preceding location, so a path can constructed. This is not needed, but
      * allows showing a nice pathway thru the grid.
      * 
-     * @param part1 boolean whether to use Part 1 or Part 2 rules
+     * @param alg boolean whether to use Part 1 or Part 2 rules
      * 
      * @return minimum heat loss
      * @throws Exception if not path found
      */
-    public int findBestPath(boolean part1) throws Exception {
+    public int findBestPath(Algorithm alg) throws Exception {
       PriorityQueue<Pair<Integer, D17Crucible>> priorityQueue = new PriorityQueue<Pair<Integer, D17Crucible>>(
           (a, b) -> a.x - b.x);
       HashMap<D17Crucible, Pair<Integer, D17Crucible>> minHeatLossMap = new HashMap<D17Crucible, Pair<Integer, D17Crucible>>();
@@ -267,13 +286,13 @@ public class Day17BothParts {
 //            crucibleHeatLoss);
 
         if (crucible.loc.equals(goalLoc)) {
-          printPath(crucible, minHeatLossMap);
-          if (part1 || crucible.runLength >= 4)
+//          printPath(crucible, minHeatLossMap);
+          if (alg != Algorithm.part2PathRestriction || crucible.runLength >= 4)
             return crucibleHeatLoss;
         }
 
-        HashSet<D17Crucible> neighbors = crucible.getNeighbors(part1);
-        checkBounds(neighbors);
+        HashSet<D17Crucible> neighbors = crucible.getNeighbors(alg);
+        checkBounds(neighbors, alg);
 
         for (D17Crucible neighbor : neighbors) {
 
@@ -346,13 +365,17 @@ public class Day17BothParts {
      * 
      * @param neighbors
      */
-    public void checkBounds(HashSet<D17Crucible> neighbors) {
+    public void checkBounds(HashSet<D17Crucible> neighbors, Algorithm alg) {
       Iterator<D17Crucible> iter = neighbors.iterator();
       while (iter.hasNext()) {
         D17Crucible c = iter.next();
-        if (c.loc.x < 0 || c.loc.y < 0 || c.loc.x >= numCols || c.loc.y >= numRows)
+
+        boolean remove = c.loc.x < 0 || c.loc.y < 0 || c.loc.x >= numCols || c.loc.y >= numRows;
+        remove = remove || alg == Algorithm.heatFence && heatLoss[c.loc.x][c.loc.y] > 5;
+        if (remove)
           iter.remove();
       }
+
     }
 
     @Override
