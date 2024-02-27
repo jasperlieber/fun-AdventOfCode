@@ -220,9 +220,9 @@ public class Day10Part2 {
 
   /**
    * Given the map and starting spot, do the following: find the two starting
-   * directions, and choose one. Then walk in that direction the path returns to
-   * the starting spot. Then update the starting spot to the correct symbol (to
-   * accommodate the logic to determine internals cells).
+   * directions, and choose one. Then walk in that direction until the path
+   * returns to the starting spot. Then update the starting spot to the correct
+   * symbol (to accommodate the logic to determine internals cells).
    * 
    * @throws Exception Various subroutines can throw an exception, which is just
    *                   passed up by this routine.
