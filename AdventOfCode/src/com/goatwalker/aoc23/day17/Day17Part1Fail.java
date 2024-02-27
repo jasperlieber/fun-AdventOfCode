@@ -10,7 +10,7 @@ import com.goatwalker.utils.IntPair;
 import com.goatwalker.utils.MyFileReader;
 
 /**
- * Puzzle description: https://adventofcode.com/2023/day/15
+ * Puzzle description: https://adventofcode.com/2023/day/17
  * 
  * This attempt failed because I was keeping minimum scores in the grid, which
  * doesn't allow for multiple paths to each grid location.

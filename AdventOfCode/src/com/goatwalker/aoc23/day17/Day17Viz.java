@@ -15,27 +15,40 @@ import com.goatwalker.utils.Pair;
 
 import processing.core.PApplet;
 
+/**
+ * Make use of processing.org to generate an animated visualization of AOC 23
+ * Day 17.
+ *
+ */
 public class Day17Viz extends PApplet {
 
-  HashMap<Algorithm, Algo> d17algs;
   private static final String datafile = "src/com/goatwalker/aoc23/day17/data/input.txt";
 //  private static final String datafile = "src/com/goatwalker/aoc23/day17/data/test_input3.txt";
 
+  // window size
+  private int winSize = 790;
+
+  // how much time to allocate before displaying results & writing a frame to disk
+  long computeTime = 460;
+
+  // delay milliseconds for first part of animation, to allow people to see the
+  // action slowly
   private int longLookMillis = 0;
+  // day time for rest of animation, to proceed quickly
   private int shortLookMillis = 0;
 
-  private int winSize = 790;
+  // location for frame saves
   private String saveFrameFilename = "c:/temp/path/f" + winSize + "-#####.jpg";
 
+  // border around grid
   private static final int border = 30;
 
-  long computeTime = 460;
+  // global junk
+  HashMap<Algorithm, Algo> d17algs;
   Day17BothParts d17;
   D17Grid d17grid;
   IntPair goalLoc;
-
   int canvasX, canvasY, tileWd, tileHt;
-
   private int last_y = -1;
   private int last_x = 0;
 

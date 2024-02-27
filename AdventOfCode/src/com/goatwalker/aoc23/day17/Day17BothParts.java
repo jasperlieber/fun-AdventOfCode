@@ -13,7 +13,7 @@ import com.goatwalker.utils.MyFileReader;
 import com.goatwalker.utils.Pair;
 
 /**
- * Puzzle description: https://adventofcode.com/2023/day/15
+ * Puzzle description: https://adventofcode.com/2023/day/17
  */
 public class Day17BothParts {
 
