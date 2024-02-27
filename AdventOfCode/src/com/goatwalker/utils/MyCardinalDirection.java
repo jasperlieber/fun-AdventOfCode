@@ -48,23 +48,39 @@ public class MyCardinalDirection {
 
   public String dirStr() {
     String str = "";
-    if ((dir & north) == north)
+    if (isNorth())
       str += "N";
-    if ((dir & east) == east)
+    if (isEast())
       str += "E";
-    if ((dir & south) == south)
+    if (isSouth())
       str += "S";
-    if ((dir & west) == west)
+    if (isWest())
       str += "W";
     return str == "" ? "none" : str;
   }
 
+  public boolean isWest() {
+    return (dir & west) == west;
+  }
+
+  public boolean isSouth() {
+    return (dir & south) == south;
+  }
+
+  public boolean isEast() {
+    return (dir & east) == east;
+  }
+
+  public boolean isNorth() {
+    return (dir & north) == north;
+  }
+
   public boolean isEastOrWest() {
-    return ((dir & east) != 0) || ((dir & west) != 0);
+    return isEast() || isWest();
   }
 
   public boolean isNorthOrSouth() {
-    return ((dir & north) != 0) || ((dir & south) != 0);
+    return isNorth() || isSouth();
   }
 
   /**
@@ -118,4 +134,5 @@ public class MyCardinalDirection {
       return ' ';
     }
   }
+
 }
