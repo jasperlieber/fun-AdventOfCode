@@ -12,6 +12,10 @@ public class IntPair extends Pair<Integer, Integer> {
     super(loc.x, loc.y);
   }
 
+  public IntPair() {
+    super(0, 0);
+  }
+
   @Override
   public String toString() {
     return String.format("[%d %d]", x, y);
