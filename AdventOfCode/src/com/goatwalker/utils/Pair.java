@@ -35,6 +35,10 @@ public class Pair<A, B> {
   public A x;
   public B y;
 
+  public Pair() {
+    super();
+  }
+
   public Pair(A first, B second) {
     super();
     this.x = first;
