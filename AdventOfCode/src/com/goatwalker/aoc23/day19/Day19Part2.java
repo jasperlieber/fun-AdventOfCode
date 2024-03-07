@@ -17,8 +17,8 @@ import com.goatwalker.utils.IntPair;
  * workflows, and accumulating the permissable ranges for each fork. I use a
  * queue to implement the tree walk, initialized with the "in" rule along with
  * four default ranges of 1-4000. For each fork, a trueFork and falseFork node
- * is computed, with the allowable ranges updates, and both added to the queue.
- * The queue is processed until all it's empty, with accepted nodes added to an
+ * is computed, with the allowable ranges updated, and both added to the queue.
+ * The queue is processed until it's empty, with accepted nodes added to an
  * accepted list. Then the final answer can be calculated as the sum of the
  * products of all the (non-negative) ranges.
  * 

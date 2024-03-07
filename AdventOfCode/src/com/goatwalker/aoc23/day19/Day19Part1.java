@@ -11,9 +11,10 @@ import java.util.regex.Pattern;
 /**
  * Puzzle description: https://adventofcode.com/2023/day/19
  * 
- * The solution to this involved feeding each input value into a the rules. The
+ * The solution to this involved feeding each input value into the rules. The
  * rules are iteratively surfed until the input is rejected or accepted, and
- * accepted inputs are put on an accepted list.
+ * accepted inputs are put on an accepted list. The final answer was the sum of
+ * the x-m-a-s values for the accepted inputs.
  */
 public class Day19Part1 {
 
