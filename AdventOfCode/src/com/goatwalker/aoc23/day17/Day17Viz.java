@@ -18,6 +18,8 @@ import processing.core.PApplet;
 /**
  * Make use of processing.org to generate an animated visualization of AOC 23
  * Day 17.
+ * 
+ * Results of this posted at https://jasper-coding.blogspot.com/
  *
  */
 public class Day17Viz extends PApplet {
